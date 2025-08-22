@@ -1,0 +1,22 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Quiz Topics{% endblock %}
+
+{% block content %}
+<h1>Select a Topic</h1>
+
+<div class="row mt-4">
+    {% for topic in topics %}
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ topic }}</h5>
+                <p class="card-text">Test your knowledge about {{ topic.lower() }}.</p>
+                <a href="{{ url_for('main.start_quiz', topic=topic) }}" class="btn btn-primary">Start Quiz</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

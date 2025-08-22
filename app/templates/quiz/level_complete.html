@@ -1,0 +1,43 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Level {{ level }} Complete{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3>Level {{ level }} Results</h3>
+    </div>
+    <div class="card-body">
+        <h4>
+            {% if passed %}
+                Congratulations! You passed Level {{ level }}
+            {% else %}
+                Sorry! You did not pass Level {{ level }}
+            {% endif %}
+        </h4>
+        
+        <div class="mt-4">
+            <h5>Your Statistics</h5>
+            <p>Score: {{ score }} points</p>
+            <p>Correct Answers: {{ total_correct }} out of {{ total_questions }}</p>
+            <p>Percentage: {{ percentage|round(1) }}%</p>
+        </div>
+        
+        {% if passed and next_level %}
+            <div class="mt-4">
+                <a href="{{ url_for('main.next_level', level=next_level) }}" class="btn btn-primary">
+                    Proceed to Level {{ next_level }}
+                </a>
+            </div>
+        {% elif not passed %}
+            <div class="mt-4">
+                <p>You need at least 60% to proceed to the next level.</p>
+                <a href="{{ url_for('main.topics') }}" class="btn btn-primary">
+                    Try Another Topic
+                </a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
