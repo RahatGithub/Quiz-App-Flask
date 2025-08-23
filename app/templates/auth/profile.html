@@ -1,68 +1,403 @@
-<!-- app/templates/auth/profile.html -->
 {% extends 'base.html' %}
 
 {% block title %}My Profile{% endblock %}
 
 {% block content %}
-<div class="card mb-4">
-    <div class="card-header">
-        <h3>My Profile</h3>
+<div class="profile-container">
+    <!-- User Profile Card -->
+    <div class="profile-card card mb-5">
+        <div class="card-header profile-header">
+            <h3 class="mb-0"><i class="fas fa-user-circle me-2"></i>My Profile</h3>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="user-info">
+                        <h4 class="username">{{ current_user.username }}</h4>
+                        <p class="user-email"><i class="fas fa-envelope me-2"></i>{{ current_user.email }}</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <div class="user-stats">
+                        <div class="stat-badge">
+                            <span class="stat-number">{{ attempts|length }}</span>
+                            <span class="stat-label">Quiz Attempts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="card-body">
-        <h4>{{ current_user.username }}</h4>
-        <p>{{ current_user.email }}</p>
+
+    <!-- Quiz History Card -->
+    <div class="history-card card">
+        <div class="card-header history-header">
+            <h3 class="mb-0"><i class="fas fa-history me-2"></i>Quiz History</h3>
+        </div>
+        <div class="card-body">
+            {% if attempts %}
+                <!-- Desktop Table View -->
+                <div class="d-none d-md-block">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Topic</th>
+                                    <th>Level</th>
+                                    <th>Score</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for attempt in attempts %}
+                                <tr class="attempt-row">
+                                    <td class="topic-cell">
+                                        <i class="fas fa-{{ 'atom' if attempt.quiz.topic == 'Science' else 'laptop-code' if attempt.quiz.topic == 'Technology' else 'globe-americas' if attempt.quiz.topic == 'History' else 'book' }} me-2"></i>
+                                        {{ attempt.quiz.topic }}
+                                    </td>
+                                    <td class="level-cell">
+                                        <span class="level-badge">Level {{ attempt.level_reached }}</span>
+                                    </td>
+                                    <td class="score-cell">
+                                        <span class="score-value">{{ attempt.score|non_negative }}</span>
+                                    </td>
+                                    <td class="date-cell">
+                                        {{ attempt.date_attempted.strftime('%Y-%m-%d %H:%M') }}
+                                    </td>
+                                    <td class="status-cell">
+                                        {% if attempt.is_complete %}
+                                            <span class="status-badge completed"><i class="fas fa-check-circle me-1"></i>Completed</span>
+                                        {% else %}
+                                            <span class="status-badge incomplete"><i class="fas fa-clock me-1"></i>Not completed</span>
+                                        {% endif %}
+                                    </td>
+                                    <td class="action-cell">
+                                        <a href="{{ url_for('auth.attempt_details', attempt_id=attempt.id) }}" 
+                                           class="btn-action">
+                                            <i class="fas fa-eye"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Mobile Card View -->
+                <div class="d-md-none">
+                    {% for attempt in attempts %}
+                    <div class="attempt-card mb-3">
+                        <div class="card-body">
+                            <div class="attempt-header mb-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="mb-0">
+                                        <i class="fas fa-{{ 'atom' if attempt.quiz.topic == 'Science' else 'laptop-code' if attempt.quiz.topic == 'Technology' else 'globe-americas' if attempt.quiz.topic == 'History' else 'book' }} me-2"></i>
+                                        {{ attempt.quiz.topic }}
+                                    </h5>
+                                    {% if attempt.is_complete %}
+                                        <span class="status-badge completed"><i class="fas fa-check-circle me-1"></i>Completed</span>
+                                    {% else %}
+                                        <span class="status-badge incomplete"><i class="fas fa-clock me-1"></i>Not completed</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            
+                            <div class="attempt-details">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="detail-item">
+                                            <span class="detail-label">Level</span>
+                                            <span class="detail-value">Level {{ attempt.level_reached }}</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="detail-item">
+                                            <span class="detail-label">Score</span>
+                                            <span class="detail-value score-value">{{ attempt.score|non_negative }}</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="detail-item">
+                                            <span class="detail-label">Date</span>
+                                            <span class="detail-value">{{ attempt.date_attempted.strftime('%Y-%m-%d %H:%M') }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="attempt-actions mt-3">
+                                <a href="{{ url_for('auth.attempt_details', attempt_id=attempt.id) }}" 
+                                   class="btn-action w-100 text-center">
+                                    <i class="fas fa-eye me-2"></i>View Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="empty-state text-center py-5">
+                    <div class="empty-icon mb-4">
+                        <i class="fas fa-inbox"></i>
+                    </div>
+                    <h4>No Quiz History Yet</h4>
+                    <p class="text-muted mb-4">You haven't taken any quizzes yet. Start your first quiz now!</p>
+                    <a href="{{ url_for('main.topics') }}" class="btn btn-primary">
+                        <i class="fas fa-play me-2"></i>Start a Quiz
+                    </a>
+                </div>
+            {% endif %}
+        </div>
     </div>
 </div>
 
-<div class="card">
-    <div class="card-header">
-        <h3>Quiz History</h3>
-    </div>
-    <div class="card-body">
-        {% if attempts %}
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Topic</th>
-                            <th>Level Reached</th>
-                            <th>Score</th>
-                            <th>Date</th>
-                            <th>Status</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for attempt in attempts %}
-                        <tr>
-                            <td>{{ attempt.quiz.topic }}</td>
-                            <td>{{ attempt.level_reached }}</td>
-                            <td>{{ attempt.score|non_negative }}</td>
-                            <td>{{ attempt.date_attempted.strftime('%Y-%m-%d %H:%M') }}</td>
-                            <td>
-                                {% if attempt.is_complete %}
-                                    <span class="badge bg-success">Completed</span>
-                                {% else %}
-                                    <span class="badge bg-warning">Not completed</span>
-                                {% endif %}
-                            </td>
-                            <td>
-                                <a href="{{ url_for('auth.attempt_details', attempt_id=attempt.id) }}" 
-                                   class="btn btn-sm btn-primary">
-                                    Detailed View
-                                </a>
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        {% else %}
-            <p class="text-center">You haven't taken any quizzes yet.</p>
-            <div class="text-center">
-                <a href="{{ url_for('main.topics') }}" class="btn btn-primary">Start a Quiz</a>
-            </div>
-        {% endif %}
-    </div>
-</div>
+<style>
+    .profile-container {
+        padding: 1rem 0;
+    }
+    
+    .profile-card, .history-card {
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-md);
+        border: 1px solid rgba(67, 97, 238, 0.15);
+        overflow: hidden;
+    }
+    
+    .profile-header, .history-header {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        color: white;
+        border: none;
+        padding: 1.25rem 1.5rem;
+    }
+    
+    .profile-card .card-body {
+        padding: 2rem;
+    }
+    
+    .username {
+        color: var(--text-primary);
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+    
+    .user-email {
+        color: var(--text-secondary);
+        margin-bottom: 0;
+    }
+    
+    .stat-badge {
+        background: linear-gradient(135deg, rgba(67, 97, 238, 0.1) 0%, rgba(58, 12, 163, 0.1) 100%);
+        padding: 1rem;
+        border-radius: var(--border-radius);
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .stat-number {
+        display: block;
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--primary);
+        line-height: 1;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+    }
+    
+    /* Desktop Table Styles */
+    .table-responsive {
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        border: 1px solid rgba(67, 97, 238, 0.1);
+    }
+    
+    table {
+        margin-bottom: 0;
+    }
+    
+    thead tr {
+        background: linear-gradient(135deg, rgba(67, 97, 238, 0.1) 0%, rgba(58, 12, 163, 0.1) 100%);
+    }
+    
+    th {
+        font-weight: 600;
+        color: var(--text-primary);
+        padding: 1rem 1.25rem;
+        border-bottom: 2px solid rgba(67, 97, 238, 0.2);
+    }
+    
+    .attempt-row {
+        transition: var(--transition);
+        border-bottom: 1px solid rgba(67, 97, 238, 0.1);
+    }
+    
+    .attempt-row:hover {
+        background: rgba(67, 97, 238, 0.03);
+    }
+    
+    td {
+        padding: 1rem 1.25rem;
+        vertical-align: middle;
+    }
+    
+    .topic-cell {
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+    
+    .level-badge {
+        background: rgba(67, 97, 238, 0.1);
+        color: var(--primary);
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+    
+    .score-value {
+        font-weight: bold;
+        color: var(--primary);
+        font-size: 1.1rem;
+    }
+    
+    .date-cell {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+    }
+    
+    .status-badge {
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        display: inline-block;
+    }
+    
+    .status-badge.completed {
+        background: rgba(76, 201, 240, 0.1);
+        color: var(--success);
+    }
+    
+    .status-badge.incomplete {
+        background: rgba(255, 209, 102, 0.1);
+        color: var(--warning);
+    }
+    
+    .btn-action {
+        background: rgba(67, 97, 238, 0.1);
+        color: var(--primary);
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        transition: var(--transition);
+        display: inline-block;
+    }
+    
+    .btn-action:hover {
+        background: var(--primary);
+        color: white;
+        transform: translateY(-2px);
+    }
+    
+    /* Mobile Card Styles */
+    .attempt-card {
+        border: 1px solid rgba(67, 97, 238, 0.1);
+        border-radius: var(--border-radius);
+        transition: var(--transition);
+    }
+    
+    .attempt-card:hover {
+        box-shadow: var(--shadow-sm);
+    }
+    
+    .attempt-card .card-body {
+        padding: 1.5rem;
+    }
+    
+    .detail-item {
+        margin-bottom: 0.8rem;
+    }
+    
+    .detail-label {
+        display: block;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.2rem;
+    }
+    
+    .detail-value {
+        display: block;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+    
+    .empty-state {
+        padding: 2rem 1rem;
+    }
+    
+    .empty-icon {
+        font-size: 3rem;
+        color: var(--text-secondary);
+        opacity: 0.5;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 992px) {
+        .profile-card .card-body {
+            padding: 1.5rem;
+        }
+        
+        th, td {
+            padding: 0.8rem 1rem;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .user-stats {
+            text-align: left !important;
+            margin-top: 1rem;
+        }
+        
+        .stat-badge {
+            padding: 0.8rem;
+        }
+        
+        .stat-number {
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .profile-header, .history-header {
+            padding: 1rem;
+        }
+        
+        .profile-card .card-body {
+            padding: 1.25rem;
+        }
+        
+        .username {
+            font-size: 1.25rem;
+        }
+        
+        .attempt-card .card-body {
+            padding: 1.25rem;
+        }
+        
+        .empty-icon {
+            font-size: 2.5rem;
+        }
+        
+        .btn-action {
+            padding: 0.6rem 1rem;
+            font-size: 0.9rem;
+        }
+    }
+</style>
 {% endblock %}

@@ -1,104 +1,457 @@
-<!-- app/templates/auth/attempt_details.html -->
 {% extends 'base.html' %}
 
 {% block title %}Attempt Details{% endblock %}
 
 {% block content %}
-<div class="mb-3">
-    <a href="{{ url_for('auth.profile') }}" class="btn btn-secondary">
-        <i class="fas fa-arrow-left"></i> Back to Profile
-    </a>
-</div>
+<div class="attempt-details-container">
+    <!-- Back Button -->
+    <div class="mb-4">
+        <a href="{{ url_for('auth.profile') }}" class="btn btn-outline-primary">
+            <i class="fas fa-arrow-left me-2"></i> Back to Profile
+        </a>
+    </div>
 
-<div class="card mb-4">
-    <div class="card-header">
-        <h3>Quiz Attempt Details</h3>
-    </div>
-    <div class="card-body">
-        <div class="row">
-            <div class="col-md-6">
-                <p><strong>Topic:</strong> {{ quiz.topic }}</p>
-                <p><strong>Date:</strong> {{ attempt.date_attempted.strftime('%Y-%m-%d %H:%M') }}</p>
-            </div>
-            <div class="col-md-6">
-                <p><strong>Level Reached:</strong> {{ attempt.level_reached }}</p>
-                <p><strong>Final Score:</strong> {{ attempt.score|non_negative }}</p>
-                <p><strong>Status:</strong> 
-                    {% if attempt.is_complete %}
-                        <span class="badge bg-success">Completed</span>
-                    {% else %}
-                        <span class="badge bg-warning">Not completed</span>
-                    {% endif %}
-                </p>
-            </div>
+    <!-- Attempt Summary Card -->
+    <div class="summary-card card mb-5">
+        <div class="card-header summary-header">
+            <h3 class="mb-0"><i class="fas fa-info-circle me-2"></i>Quiz Attempt Details</h3>
         </div>
-    </div>
-</div>
-
-{% for level_num, level_data in levels_data %}
-<div class="card mb-4">
-    <div class="card-header">
-        <h4>Level {{ level_num }} Results</h4>
-    </div>
-    <div class="card-body">
-        <div class="mb-3">
-            <p><strong>Score:</strong> {{ level_data.total_points|non_negative }} out of {{ level_data.total_possible_points }} possible points</p>
-            <p><strong>Correct Answers:</strong> {{ level_data.total_correct }} out of {{ level_data.responses|length }}</p>
-            <p><strong>Points Percentage:</strong> 
-                {{ (level_data.total_points|non_negative / level_data.total_possible_points * 100)|round(1) }}%
-                <small class="text-muted">(60% required to pass)</small>
-            </p>
-        </div>
-        
-        <!-- Level Questions -->
-        <h5 class="mt-4">Question Details</h5>
-        
-        {% for question in level_data.responses %}
-        <div class="card mb-3">
-            <div class="card-header d-flex justify-content-between">
-                <h6 class="mb-0">Question {{ loop.index }}</h6>
-                <span class="badge {% if question.is_correct %}bg-success{% elif question.skipped %}bg-warning{% else %}bg-danger{% endif %}">
-                    {% if question.is_correct %}
-                        Correct Answer
-                    {% elif question.skipped %}
-                        Not Answered
-                    {% else %}
-                        Wrong Answer
-                    {% endif %}
-                </span>
-            </div>
-            <div class="card-body">
-                <p>{{ question.text }}</p>
-                
-                <div class="list-group mt-3">
-                    {% for option in question.options %}
-                    <div class="list-group-item 
-                        {% if option == question.correct_answer %}bg-success text-white{% endif %}
-                        {% if option == question.user_answer and not question.is_correct %}bg-danger text-white{% endif %}">
-                        {{ option }}
-                        
-                        {% if option == question.correct_answer %}
-                            <span class="float-end">✓ Correct Answer</span>
-                        {% endif %}
-                        
-                        {% if option == question.user_answer and not question.is_correct %}
-                            <span class="float-end">✗ Your Answer</span>
-                        {% endif %}
-                        
-                        {% if option == question.user_answer and question.is_correct %}
-                            <span class="float-end">✓ Your Answer</span>
-                        {% endif %}
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="detail-item">
+                        <div class="detail-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="detail-content">
+                            <span class="detail-label">Topic</span>
+                            <span class="detail-value">{{ quiz.topic }}</span>
+                        </div>
                     </div>
-                    {% endfor %}
                 </div>
-                
-                <div class="mt-3">
-                    <strong>Points: {{ question.points }}</strong>
+                <div class="col-md-6 mb-3">
+                    <div class="detail-item">
+                        <div class="detail-icon">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <div class="detail-content">
+                            <span class="detail-label">Date</span>
+                            <span class="detail-value">{{ attempt.date_attempted.strftime('%Y-%m-%d %H:%M') }}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="detail-item">
+                        <div class="detail-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="detail-content">
+                            <span class="detail-label">Level Reached</span>
+                            <span class="detail-value">Level {{ attempt.level_reached }}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="detail-item">
+                        <div class="detail-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="detail-content">
+                            <span class="detail-label">Final Score</span>
+                            <span class="detail-value score-value">{{ attempt.score|non_negative }}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="detail-item">
+                        <div class="detail-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <div class="detail-content">
+                            <span class="detail-label">Status</span>
+                            <span class="status-badge {% if attempt.is_complete %}completed{% else %}incomplete{% endif %}">
+                                {% if attempt.is_complete %}
+                                    <i class="fas fa-check-circle me-1"></i>Completed
+                                {% else %}
+                                    <i class="fas fa-clock me-1"></i>Not Completed
+                                {% endif %}
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        {% endfor %}
     </div>
+
+    <!-- Level Results -->
+    {% for level_num, level_data in levels_data %}
+    <div class="level-card card mb-5">
+        <div class="card-header level-header">
+            <h4 class="mb-0"><i class="fas fa-trophy me-2"></i>Level {{ level_num }} Results</h4>
+        </div>
+        <div class="card-body">
+            <!-- Level Statistics -->
+            <div class="level-stats row mb-4">
+                <div class="col-md-4 col-6 mb-3">
+                    <div class="stat-item text-center">
+                        <div class="stat-value">{{ level_data.total_points|non_negative }}/{{ level_data.total_possible_points }}</div>
+                        <div class="stat-label">Points Earned</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-3">
+                    <div class="stat-item text-center">
+                        <div class="stat-value">{{ level_data.total_correct }}/{{ level_data.responses|length }}</div>
+                        <div class="stat-label">Correct Answers</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mb-3">
+                    <div class="stat-item text-center">
+                        <div class="stat-value">{{ (level_data.total_points|non_negative / level_data.total_possible_points * 100)|round(1) }}%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question Details -->
+            <h5 class="section-title mb-4"><i class="fas fa-question-circle me-2"></i>Question Details</h5>
+            
+            {% for question in level_data.responses %}
+            <div class="question-review-card card mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h6 class="mb-0">Question {{ loop.index }}</h6>
+                    <span class="status-badge {% if question.is_correct %}correct{% elif question.skipped %}skipped{% else %}incorrect{% endif %}">
+                        {% if question.is_correct %}
+                            <i class="fas fa-check-circle me-1"></i>Correct
+                        {% elif question.skipped %}
+                            <i class="fas fa-forward me-1"></i>Skipped
+                        {% else %}
+                            <i class="fas fa-times-circle me-1"></i>Incorrect
+                        {% endif %}
+                    </span>
+                </div>
+                <div class="card-body">
+                    <p class="question-text">{{ question.text }}</p>
+                    
+                    <div class="options-review mt-3">
+                        {% for option in question.options %}
+                        <div class="option-review {% if option == question.correct_answer %}correct-answer{% endif %} {% if option == question.user_answer and not question.is_correct %}wrong-answer{% endif %}">
+                            <span class="option-letter">{{ ['A', 'B', 'C', 'D'][loop.index0] }}</span>
+                            <span class="option-text">{{ option }}</span>
+                            
+                            {% if option == question.correct_answer %}
+                            <span class="option-status correct-mark"><i class="fas fa-check-circle"></i> Correct</span>
+                            {% endif %}
+                            
+                            {% if option == question.user_answer and not question.is_correct %}
+                            <span class="option-status wrong-mark"><i class="fas fa-times-circle"></i> Your Answer</span>
+                            {% endif %}
+                            
+                            {% if option == question.user_answer and question.is_correct %}
+                            <span class="option-status correct-mark"><i class="fas fa-check-circle"></i> Your Answer</span>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="points-earned mt-3">
+                        <span class="badge bg-secondary">Points: {{ question.points }}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
 </div>
-{% endfor %}
+
+<style>
+    .attempt-details-container {
+        padding: 1rem 0;
+    }
+    
+    .summary-card, .level-card {
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-md);
+        border: 1px solid rgba(67, 97, 238, 0.15);
+        overflow: hidden;
+    }
+    
+    .summary-header, .level-header {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        color: white;
+        border: none;
+        padding: 1.25rem 1.5rem;
+    }
+    
+    .detail-item {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .detail-icon {
+        width: 40px;
+        height: 40px;
+        background: rgba(67, 97, 238, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        color: var(--primary);
+        flex-shrink: 0;
+    }
+    
+    .detail-label {
+        display: block;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.2rem;
+    }
+    
+    .detail-value {
+        display: block;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+    
+    .score-value {
+        font-weight: bold;
+        color: var(--primary);
+        font-size: 1.1rem;
+    }
+    
+    .status-badge {
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        display: inline-block;
+    }
+    
+    .status-badge.completed, .status-badge.correct {
+        background: rgba(76, 201, 240, 0.1);
+        color: var(--success);
+    }
+    
+    .status-badge.incomplete, .status-badge.skipped {
+        background: rgba(255, 209, 102, 0.1);
+        color: var(--warning);
+    }
+    
+    .status-badge.incorrect {
+        background: rgba(247, 37, 133, 0.1);
+        color: var(--accent);
+    }
+    
+    .level-stats {
+        background: rgba(67, 97, 238, 0.05);
+        padding: 1.5rem;
+        border-radius: var(--border-radius);
+        margin: 0 -0.25rem;
+    }
+    
+    .stat-item {
+        padding: 1rem 0.5rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--primary);
+        margin-bottom: 0.5rem;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+    }
+    
+    .section-title {
+        color: var(--text-primary);
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 0.5rem;
+        margin-top: 2rem;
+    }
+    
+    .section-title::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        border-radius: 2px;
+    }
+    
+    .question-review-card {
+        border: 1px solid rgba(67, 97, 238, 0.1);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+    }
+    
+    .question-review-card .card-header {
+        border-bottom: 1px solid rgba(67, 97, 238, 0.1);
+        padding: 1rem 1.25rem;
+    }
+    
+    .question-text {
+        font-weight: 500;
+        color: var(--text-primary);
+        margin-bottom: 1.5rem;
+    }
+    
+    .options-review {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .option-review {
+        padding: 0.8rem 1rem;
+        border: 2px solid rgba(67, 97, 238, 0.1);
+        border-radius: var(--border-radius);
+        display: flex;
+        align-items: center;
+        transition: var(--transition);
+    }
+    
+    .correct-answer {
+        background: rgba(76, 201, 240, 0.1);
+        border-color: var(--success);
+    }
+    
+    .wrong-answer {
+        background: rgba(247, 37, 133, 0.1);
+        border-color: var(--accent);
+    }
+    
+    .option-letter {
+        background: var(--primary);
+        color: white;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin-right: 1rem;
+        flex-shrink: 0;
+        font-size: 0.8rem;
+    }
+    
+    .correct-answer .option-letter {
+        background: var(--success);
+    }
+    
+    .wrong-answer .option-letter {
+        background: var(--accent);
+    }
+    
+    .option-text {
+        flex-grow: 1;
+    }
+    
+    .option-status {
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+    
+    .correct-mark {
+        color: var(--success);
+    }
+    
+    .wrong-mark {
+        color: var(--accent);
+    }
+    
+    .points-earned {
+        text-align: right;
+    }
+
+    .btn-outline-primary {
+        color: var(--primary);
+        border-color: var(--primary);
+        background: transparent;
+        transition: var(--transition);
+    }
+
+    .btn-outline-primary:hover {
+        background: var(--primary);
+        border-color: var(--primary);
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-sm);
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .detail-item {
+            flex-direction: column;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        
+        .detail-icon {
+            margin-right: 0;
+            margin-bottom: 0.5rem;
+        }
+        
+        .level-stats {
+            padding: 1rem;
+        }
+        
+        .stat-item {
+            padding: 0.8rem 0.25rem;
+        }
+        
+        .stat-value {
+            font-size: 1.3rem;
+        }
+        
+        .option-review {
+            flex-wrap: wrap;
+        }
+        
+        .option-status {
+            margin-left: 0;
+            width: 100%;
+            margin-top: 0.5rem;
+            padding-left: 2.5rem;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .summary-header, .level-header {
+            padding: 1rem;
+        }
+        
+        .detail-icon {
+            width: 35px;
+            height: 35px;
+        }
+        
+        .stat-value {
+            font-size: 1.2rem;
+        }
+        
+        .question-review-card .card-header {
+            padding: 0.8rem 1rem;
+        }
+        
+        .option-letter {
+            width: 24px;
+            height: 24px;
+            font-size: 0.7rem;
+            margin-right: 0.8rem;
+        }
+        
+        .option-text {
+            font-size: 0.95rem;
+        }
+    }
+</style>
 {% endblock %}

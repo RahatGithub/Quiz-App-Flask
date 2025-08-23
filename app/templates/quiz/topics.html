@@ -1,22 +1,199 @@
-
 {% extends 'base.html' %}
 
 {% block title %}Quiz Topics{% endblock %}
 
 {% block content %}
-<h1>Select a Topic</h1>
+<div class="topics-container">
+    <div class="topics-header text-center mb-5">
+        <h1 class="display-4 fw-bold mb-3">Choose Your Quiz Topic</h1>
+        <p class="lead text-muted">Select a topic that interests you and test your knowledge</p>
+    </div>
 
-<div class="row mt-4">
-    {% for topic in topics %}
-    <div class="col-md-4 mb-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">{{ topic }}</h5>
-                <p class="card-text">Test your knowledge about {{ topic.lower() }}.</p>
-                <a href="{{ url_for('main.start_quiz', topic=topic) }}" class="btn btn-primary">Start Quiz</a>
+    <div class="row justify-content-center">
+        <!-- Science Topic -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="topic-card card h-100">
+                <div class="card-body text-center p-4">
+                    <div class="topic-icon mb-3">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3 class="card-title h5">Science</h3>
+                    <p class="card-text text-muted">Test your knowledge about science.</p>
+                    <a href="{{ url_for('main.start_quiz', topic='Science') }}" class="btn btn-primary mt-3">
+                        Start Quiz <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Technology Topic -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="topic-card card h-100">
+                <div class="card-body text-center p-4">
+                    <div class="topic-icon mb-3">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="card-title h5">Technology</h3>
+                    <p class="card-text text-muted">Test your knowledge about technology.</p>
+                    <a href="{{ url_for('main.start_quiz', topic='Technology') }}" class="btn btn-primary mt-3">
+                        Start Quiz <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- History Topic -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="topic-card card h-100">
+                <div class="card-body text-center p-4">
+                    <div class="topic-icon mb-3">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3 class="card-title h5">History</h3>
+                    <p class="card-text text-muted">Test your knowledge about history.</p>
+                    <a href="{{ url_for('main.start_quiz', topic='History') }}" class="btn btn-primary mt-3">
+                        Start Quiz <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    {% endfor %}
 </div>
+
+<style>
+    .topics-container {
+        padding: 1rem 0;
+    }
+    
+    .topics-header {
+        animation: fadeIn 0.8s ease;
+    }
+    
+    .topic-card {
+        border-radius: var(--border-radius);
+        transition: var(--transition);
+        background: var(--card-bg);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(67, 97, 238, 0.15);
+        position: relative;
+    }
+    
+    .topic-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(67, 97, 238, 0.2);
+        border-color: rgba(67, 97, 238, 0.3);
+    }
+    
+    .topic-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+        opacity: 0;
+        transition: var(--transition);
+    }
+    
+    .topic-card:hover::before {
+        opacity: 1;
+    }
+    
+    .topic-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+        background: linear-gradient(135deg, rgba(67, 97, 238, 0.1) 0%, rgba(58, 12, 163, 0.1) 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        color: var(--primary);
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 1200px) {
+        .topics-header h1 {
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (max-width: 992px) {
+        .topics-header h1 {
+            font-size: 2.2rem;
+        }
+        
+        .topic-icon {
+            width: 60px;
+            height: 60px;
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .topics-header {
+            margin-bottom: 3rem !important;
+        }
+        
+        .topics-header h1 {
+            font-size: 2rem;
+        }
+        
+        .topics-header p {
+            font-size: 1.1rem;
+        }
+        
+        .topic-card {
+            margin-bottom: 1.5rem;
+            max-width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .topics-header h1 {
+            font-size: 1.8rem;
+        }
+        
+        .topic-card .card-body {
+            padding: 1.5rem !important;
+        }
+        
+        .topic-icon {
+            width: 50px;
+            height: 50px;
+            font-size: 1.3rem;
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Add staggered animation to topic cards
+        const topicCards = document.querySelectorAll('.topic-card');
+        
+        topicCards.forEach((card, index) => {
+            // Add delay based on index for staggered effect
+            card.style.animationDelay = `${index * 0.2}s`;
+            card.style.animation = 'fadeIn 0.6s ease forwards';
+            card.style.opacity = '0';
+        });
+        
+        // Add hover effect to buttons
+        const buttons = document.querySelectorAll('.btn');
+        buttons.forEach(button => {
+            button.addEventListener('mouseenter', function() {
+                this.querySelector('i').style.transform = 'translateX(4px)';
+            });
+            
+            button.addEventListener('mouseleave', function() {
+                this.querySelector('i').style.transform = 'translateX(0)';
+            });
+        });
+    });
+</script>
 {% endblock %}
