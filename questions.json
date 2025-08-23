@@ -1,949 +1,2703 @@
 
 [
   {
-  "id": "sci_1_1",
-  "text": "What is the chemical symbol for water?",
-  "options": ["CO2", "NaCl", "O2", "H2O", "CH4", "N2", "NH3"],
-  "correct_answer": "H2O",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_2",
-  "text": "Which planet is known as the Red Planet?",
-  "options": ["Venus", "Jupiter", "Mercury", "Saturn", "Neptune", "Uranus", "Mars"],
-  "correct_answer": "Mars",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_3",
-  "text": "What gas do humans inhale to survive?",
-  "options": ["Carbon Dioxide", "Nitrogen", "Hydrogen", "Oxygen", "Helium", "Methane", "Argon"],
-  "correct_answer": "Oxygen",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_4",
-  "text": "What is the powerhouse of the cell?",
-  "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi Body", "Chloroplast", "Cytoplasm", "Lysosome"],
-  "correct_answer": "Mitochondria",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_5",
-  "text": "Which part of the plant conducts photosynthesis?",
-  "options": ["Root", "Stem", "Leaf", "Flower", "Seed", "Bark", "Fruit"],
-  "correct_answer": "Leaf",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_6",
-  "text": "What is the closest planet to the Sun?",
-  "options": ["Venus", "Mars", "Earth", "Mercury", "Saturn", "Jupiter", "Neptune"],
-  "correct_answer": "Mercury",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_7",
-  "text": "What is the hardest natural substance on Earth?",
-  "options": ["Gold", "Diamond", "Iron", "Granite", "Steel", "Quartz", "Sapphire"],
-  "correct_answer": "Diamond",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_8",
-  "text": "Which organ pumps blood throughout the human body?",
-  "options": ["Liver", "Brain", "Lungs", "Heart", "Kidneys", "Pancreas", "Stomach"],
-  "correct_answer": "Heart",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_9",
-  "text": "Which gas do plants release during photosynthesis?",
-  "options": ["Carbon Dioxide", "Nitrogen", "Oxygen", "Methane", "Hydrogen", "Chlorine", "Helium"],
-  "correct_answer": "Oxygen",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_10",
-  "text": "How many planets are there in our Solar System?",
-  "options": ["7", "8", "9", "6", "5", "10", "11"],
-  "correct_answer": "8",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_11",
-  "text": "Which is the largest planet in the Solar System?",
-  "options": ["Earth", "Mars", "Venus", "Jupiter", "Saturn", "Uranus", "Neptune"],
-  "correct_answer": "Jupiter",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_12",
-  "text": "Which human sense organ is responsible for vision?",
-  "options": ["Ear", "Eye", "Nose", "Skin", "Tongue", "Brain", "Liver"],
-  "correct_answer": "Eye",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_13",
-  "text": "What is the boiling point of water at sea level?",
-  "options": ["0°C", "25°C", "50°C", "75°C", "90°C", "100°C", "120°C"],
-  "correct_answer": "100°C",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_14",
-  "text": "Which star is at the center of our Solar System?",
-  "options": ["Moon", "Polaris", "Sirius", "Sun", "Alpha Centauri", "Betelgeuse", "Andromeda"],
-  "correct_answer": "Sun",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_15",
-  "text": "Which planet is known for its rings?",
-  "options": ["Mars", "Earth", "Venus", "Jupiter", "Neptune", "Saturn", "Mercury"],
-  "correct_answer": "Saturn",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_16",
-  "text": "Which part of the plant absorbs water from the soil?",
-  "options": ["Leaf", "Stem", "Root", "Flower", "Seed", "Fruit", "Branch"],
-  "correct_answer": "Root",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_17",
-  "text": "Which blood cells help fight infections?",
-  "options": ["Red Blood Cells", "White Blood Cells", "Platelets", "Plasma Cells", "Nerve Cells", "Stem Cells", "Bone Cells"],
-  "correct_answer": "White Blood Cells",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_18",
-  "text": "What is the symbol for the element Oxygen?",
-  "options": ["O", "Ox", "O2", "Og", "H", "N", "Oz"],
-  "correct_answer": "O",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_19",
-  "text": "Which force pulls objects toward Earth?",
-  "options": ["Magnetism", "Electricity", "Gravity", "Friction", "Inertia", "Air Resistance", "Momentum"],
-  "correct_answer": "Gravity",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_20",
-  "text": "Which organ in humans is primarily responsible for breathing?",
-  "options": ["Heart", "Liver", "Lungs", "Brain", "Kidneys", "Skin", "Pancreas"],
-  "correct_answer": "Lungs",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_21",
-  "text": "What type of energy comes from the Sun?",
-  "options": ["Nuclear Energy", "Solar Energy", "Geothermal Energy", "Kinetic Energy", "Chemical Energy", "Sound Energy", "Magnetic Energy"],
-  "correct_answer": "Solar Energy",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_22",
-  "text": "What is the largest mammal on Earth?",
-  "options": ["Elephant", "Blue Whale", "Shark", "Giraffe", "Orca", "Hippopotamus", "Rhino"],
-  "correct_answer": "Blue Whale",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_23",
-  "text": "Which metal is liquid at room temperature?",
-  "options": ["Gold", "Silver", "Mercury", "Aluminum", "Copper", "Iron", "Platinum"],
-  "correct_answer": "Mercury",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_24",
-  "text": "Which part of the eye controls the amount of light entering?",
-  "options": ["Cornea", "Lens", "Retina", "Iris", "Pupil", "Optic Nerve", "Sclera"],
-  "correct_answer": "Iris",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_25",
-  "text": "What is the main gas found in Earth’s atmosphere?",
-  "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen", "Argon", "Methane", "Helium"],
-  "correct_answer": "Nitrogen",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_26",
-  "text": "Which vitamin is produced by the skin when exposed to sunlight?",
-  "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D", "Vitamin E", "Vitamin K", "Vitamin B12"],
-  "correct_answer": "Vitamin D",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_27",
-  "text": "What instrument is used to measure temperature?",
-  "options": ["Barometer", "Hygrometer", "Thermometer", "Altimeter", "Seismograph", "Anemometer", "Compass"],
-  "correct_answer": "Thermometer",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_28",
-  "text": "What planet is known as Earth’s twin?",
-  "options": ["Venus", "Mars", "Mercury", "Saturn", "Jupiter", "Neptune", "Uranus"],
-  "correct_answer": "Venus",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_29",
-  "text": "What is the center of an atom called?",
-  "options": ["Proton", "Electron", "Nucleus", "Neutron", "Molecule", "Ion", "Orbit"],
-  "correct_answer": "Nucleus",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "sci_1_30",
-  "text": "Which organ in the human body filters blood?",
-  "options": ["Heart", "Lungs", "Kidneys", "Liver", "Pancreas", "Spleen", "Intestines"],
-  "correct_answer": "Kidneys",
-  "level": 1,
-  "topic": "Science",
-  "points": 10
-},
-{
-  "id": "tech_1_1",
-  "text": "Who is the founder of Microsoft?",
-  "options": ["Steve Jobs", "Mark Zuckerberg", "Elon Musk", "Jeff Bezos", "Larry Page", "Sergey Brin", "Bill Gates"],
-  "correct_answer": "Bill Gates",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_2",
-  "text": "What does 'WWW' stand for in website addresses?",
-  "options": ["World Wide Web", "World Web Wide", "Wide World Web", "Web World Wide", "Wide Wide Web", "Web Wide World", "World Wired Web"],
-  "correct_answer": "World Wide Web",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_3",
-  "text": "Which company created the iPhone?",
-  "options": ["Samsung", "Nokia", "Microsoft", "Apple", "Sony", "Google", "Huawei"],
-  "correct_answer": "Apple",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_4",
-  "text": "What does 'USB' stand for?",
-  "options": ["Universal Service Bus", "Universal Serial Bus", "United System Board", "Universal Signal Base", "User Serial Board", "Unique Service Base", "Universal System Bus"],
-  "correct_answer": "Universal Serial Bus",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_5",
-  "text": "What symbol is commonly used to denote email?",
-  "options": ["#", "%", "&", "@", "$", "!", "*"],
-  "correct_answer": "@",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_6",
-  "text": "Which company is known for the Windows operating system?",
-  "options": ["Apple", "IBM", "Google", "Microsoft", "Dell", "HP", "Intel"],
-  "correct_answer": "Microsoft",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_7",
-  "text": "What does 'AI' stand for in technology?",
-  "options": ["Advanced Internet", "Artificial Intelligence", "Automated Input", "Automatic Integration", "Applied Innovation", "Active Interface", "Augmented Interaction"],
-  "correct_answer": "Artificial Intelligence",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_8",
-  "text": "What does 'HTTP' stand for?",
-  "options": ["Hyper Text Transfer Protocol", "High Tech Transmission Program", "Hyperlink Transfer Text Program", "High Text Transfer Protocol", "Hyper Text Transmission Process", "High Transfer Text Protocol", "Hyper Transfer Text Program"],
-  "correct_answer": "Hyper Text Transfer Protocol",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_9",
-  "text": "Which search engine is owned by Google?",
-  "options": ["Bing", "Yahoo", "DuckDuckGo", "Google Search", "Ask", "Yandex", "AOL"],
-  "correct_answer": "Google Search",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_10",
-  "text": "What is the shortcut key for 'copy' on Windows?",
-  "options": ["Ctrl+P", "Ctrl+C", "Ctrl+X", "Ctrl+Z", "Ctrl+V", "Ctrl+S", "Ctrl+O"],
-  "correct_answer": "Ctrl+C",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_11",
-  "text": "What does 'CPU' stand for?",
-  "options": ["Central Processing Unit", "Control Processing Unit", "Central Program Utility", "Central Protocol Unit", "Computer Processing Unit", "Central Peripheral Unit", "Control Program Unit"],
-  "correct_answer": "Central Processing Unit",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_12",
-  "text": "Which social media platform is known for tweets?",
-  "options": ["Facebook", "Twitter", "Instagram", "LinkedIn", "TikTok", "Reddit", "Snapchat"],
-  "correct_answer": "Twitter",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_13",
-  "text": "What does 'PDF' stand for?",
-  "options": ["Portable Document Format", "Public Data File", "Personal Document File", "Program Data Format", "Printable Data Form", "Portable Data Folder", "Processed Document File"],
-  "correct_answer": "Portable Document Format",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_14",
-  "text": "Which company developed the Android operating system?",
-  "options": ["Apple", "Samsung", "Google", "Microsoft", "Nokia", "Sony", "IBM"],
-  "correct_answer": "Google",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_15",
-  "text": "What does 'URL' stand for?",
-  "options": ["Uniform Resource Locator", "Universal Routing Link", "Unified Resource Link", "Unique Routing Locator", "Universal Reference Locator", "Uniform Reference Link", "Unified Routing Link"],
-  "correct_answer": "Uniform Resource Locator",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_16",
-  "text": "Which device is primarily used to print documents?",
-  "options": ["Scanner", "Projector", "Printer", "Monitor", "Keyboard", "Speaker", "Modem"],
-  "correct_answer": "Printer",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_17",
-  "text": "What does 'Wi-Fi' commonly refer to?",
-  "options": ["Wireless Fidelity", "Wide Field Internet", "Wired Fidelity", "Wireless Finder", "Wide Frequency Internet", "Web Fiber", "World Internet Facility"],
-  "correct_answer": "Wireless Fidelity",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_18",
-  "text": "Which company created the PlayStation?",
-  "options": ["Microsoft", "Nintendo", "Sony", "Sega", "Atari", "Apple", "Google"],
-  "correct_answer": "Sony",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_19",
-  "text": "What does 'IT' stand for?",
-  "options": ["Information Technology", "Internet Technology", "Input Transfer", "Internal Transmission", "International Tech", "Instant Transfer", "Intelligent Technology"],
-  "correct_answer": "Information Technology",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_20",
-  "text": "Which key is used to refresh a webpage on Windows?",
-  "options": ["F2", "F3", "F4", "F5", "F6", "F7", "F8"],
-  "correct_answer": "F5",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_21",
-  "text": "Which website is primarily used for watching videos?",
-  "options": ["YouTube", "Facebook", "Reddit", "Google", "Instagram", "LinkedIn", "Twitter"],
-  "correct_answer": "YouTube",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_22",
-  "text": "Which device is used to move a cursor on a computer screen?",
-  "options": ["Keyboard", "Mouse", "Monitor", "Scanner", "Speaker", "Printer", "Joystick"],
-  "correct_answer": "Mouse",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_23",
-  "text": "What does 'SMS' stand for?",
-  "options": ["Short Message Service", "Small Message Service", "Simple Messaging System", "Standard Messaging Service", "Secure Message Service", "Shared Messaging Service", "Single Message System"],
-  "correct_answer": "Short Message Service",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_24",
-  "text": "Which company developed the Windows operating system?",
-  "options": ["Apple", "Microsoft", "IBM", "Intel", "Google", "Dell", "HP"],
-  "correct_answer": "Microsoft",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_25",
-  "text": "Which application is widely used for video conferencing?",
-  "options": ["Zoom", "Twitter", "YouTube", "Reddit", "Instagram", "LinkedIn", "WhatsApp"],
-  "correct_answer": "Zoom",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_26",
-  "text": "What does 'GPS' stand for?",
-  "options": ["Global Positioning System", "General Positioning Service", "Geographic Placement System", "Global Placement Service", "Geo Position Service", "General Position System", "Ground Position Service"],
-  "correct_answer": "Global Positioning System",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_27",
-  "text": "Which technology is used to make phone calls over the Internet?",
-  "options": ["VoIP", "VPN", "ISP", "LAN", "SMS", "4G", "DSL"],
-  "correct_answer": "VoIP",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_28",
-  "text": "Which online shop was founded by Jeff Bezos?",
-  "options": ["eBay", "Alibaba", "Flipkart", "Amazon", "Rakuten", "Walmart", "Target"],
-  "correct_answer": "Amazon",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_29",
-  "text": "Which key combination is used to paste text on Windows?",
-  "options": ["Ctrl+C", "Ctrl+V", "Ctrl+X", "Ctrl+Z", "Ctrl+S", "Ctrl+P", "Ctrl+O"],
-  "correct_answer": "Ctrl+V",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-{
-  "id": "tech_1_30",
-  "text": "Which company created the Macintosh computer?",
-  "options": ["Microsoft", "IBM", "Apple", "Dell", "HP", "Lenovo", "Sony"],
-  "correct_answer": "Apple",
-  "level": 1,
-  "topic": "Technology",
-  "points": 10
-},
-
-{
-  "id": "his_1_1",
-  "text": "Who was the first President of the United States?",
-  "options": ["George Washington", "Abraham Lincoln", "John Adams", "Thomas Jefferson", "James Madison", "Alexander Hamilton", "Benjamin Franklin"],
-  "correct_answer": "George Washington",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_2",
-  "text": "In which year did World War II end?",
-  "options": ["1939", "1940", "1942", "1943", "1944", "1945", "1946"],
-  "correct_answer": "1945",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_3",
-  "text": "Who was known as the 'Maid of Orléans'?",
-  "options": ["Marie Curie", "Catherine the Great", "Joan of Arc", "Cleopatra", "Queen Elizabeth I", "Isabella of Castile", "Anne Frank"],
-  "correct_answer": "Joan of Arc",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_4",
-  "text": "Which ancient civilization built the pyramids?",
-  "options": ["Romans", "Greeks", "Mesopotamians", "Egyptians", "Chinese", "Maya", "Persians"],
-  "correct_answer": "Egyptians",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_5",
-  "text": "Who discovered America in 1492?",
-  "options": ["Christopher Columbus", "Vasco da Gama", "Marco Polo", "Ferdinand Magellan", "Hernán Cortés", "Leif Erikson", "Amerigo Vespucci"],
-  "correct_answer": "Christopher Columbus",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_6",
-  "text": "Which empire was ruled by Genghis Khan?",
-  "options": ["Roman Empire", "Mongol Empire", "Ottoman Empire", "Byzantine Empire", "Persian Empire", "Chinese Empire", "British Empire"],
-  "correct_answer": "Mongol Empire",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_7",
-  "text": "The Great Wall of China was primarily built for protection against which group?",
-  "options": ["Romans", "Mongols", "Persians", "Huns", "Japanese", "Koreans", "Indians"],
-  "correct_answer": "Mongols",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_8",
-  "text": "Who was the first man to step on the Moon?",
-  "options": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "John Glenn", "Michael Collins", "Alan Shepard", "Sally Ride"],
-  "correct_answer": "Neil Armstrong",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_9",
-  "text": "Which war was fought between the North and South regions in the United States?",
-  "options": ["Revolutionary War", "Civil War", "War of 1812", "Spanish-American War", "Vietnam War", "Korean War", "World War I"],
-  "correct_answer": "Civil War",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_10",
-  "text": "Who was the British Prime Minister during most of World War II?",
-  "options": ["Winston Churchill", "Neville Chamberlain", "Clement Attlee", "Margaret Thatcher", "Edward Heath", "Tony Blair", "David Lloyd George"],
-  "correct_answer": "Winston Churchill",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_11",
-  "text": "What was the name of the ship that carried the Pilgrims to America in 1620?",
-  "options": ["Santa Maria", "Mayflower", "Endeavour", "Discovery", "Victoria", "Beagle", "Titanic"],
-  "correct_answer": "Mayflower",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_12",
-  "text": "Which empire built the Colosseum?",
-  "options": ["Greek Empire", "Roman Empire", "Ottoman Empire", "Byzantine Empire", "Mongol Empire", "Egyptian Empire", "Macedonian Empire"],
-  "correct_answer": "Roman Empire",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_13",
-  "text": "Who was assassinated in Sarajevo in 1914, sparking World War I?",
-  "options": ["Archduke Franz Ferdinand", "Kaiser Wilhelm II", "Nicholas II", "Gavrilo Princip", "Woodrow Wilson", "David Lloyd George", "Benito Mussolini"],
-  "correct_answer": "Archduke Franz Ferdinand",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_14",
-  "text": "Which U.S. President issued the Emancipation Proclamation?",
-  "options": ["George Washington", "Thomas Jefferson", "Andrew Jackson", "Abraham Lincoln", "Theodore Roosevelt", "Ulysses S. Grant", "James Monroe"],
-  "correct_answer": "Abraham Lincoln",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-},
-{
-  "id": "his_1_15",
-  "text": "Which ancient city was destroyed by the eruption of Mount Vesuvius in 79 AD?",
-  "options": ["Athens", "Rome", "Pompeii", "Carthage", "Babylon", "Alexandria", "Troy"],
-  "correct_answer": "Pompeii",
-  "level": 1,
-  "topic": "History",
-  "points": 10
-}, 
-{
+    "id": "sci_1_1",
+    "text": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Cell Membrane", "Endoplasmic Reticulum", "Golgi Apparatus", "Cytoplasm"],
+    "correct_answer": "Mitochondria",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_2",
+    "text": "Which part of the plant conducts photosynthesis?",
+    "options": ["Root", "Stem", "Flower", "Leaf", "Bark", "Seed", "Petal"],
+    "correct_answer": "Leaf",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_3",
+    "text": "What is the closest planet to the Sun?",
+    "options": ["Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
+    "correct_answer": "Mercury",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_4",
+    "text": "What is the hardest natural substance on Earth?",
+    "options": ["Gold", "Iron", "Titanium", "Diamond", "Platinum", "Quartz", "Ruby"],
+    "correct_answer": "Diamond",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_5",
+    "text": "Which organ pumps blood throughout the human body?",
+    "options": ["Liver", "Lung", "Brain", "Kidney", "Stomach", "Pancreas", "Heart"],
+    "correct_answer": "Heart",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_6",
+    "text": "How many planets are there in our Solar System?",
+    "options": ["7", "8", "9", "10", "11", "12", "13"],
+    "correct_answer": "8",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_7",
+    "text": "Which planet is known for its rings?",
+    "options": ["Jupiter", "Uranus", "Neptune", "Mars", "Venus", "Mercury", "Earth"],
+    "correct_answer": "Saturn",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_8",
+    "text": "Which blood cells help fight infections?",
+    "options": ["Red Blood Cells", "Platelets", "Plasma", "White Blood Cells", "Hemoglobin", "Capillaries", "Antibodies"],
+    "correct_answer": "White Blood Cells",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_9",
+    "text": "Which metal is liquid at room temperature?",
+    "options": ["Iron", "Copper", "Aluminum", "Silver", "Gold", "Mercury", "Zinc"],
+    "correct_answer": "Mercury",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_10",
+    "text": "Which part of the eye controls the amount of light entering?",
+    "options": ["Retina", "Lens", "Cornea", "Optic Nerve", "Pupil", "Iris", "Sclera"],
+    "correct_answer": "Iris",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_11",
+    "text": "What is the main gas found in Earth's atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Argon", "Hydrogen", "Helium", "Nitrogen", "Methane"],
+    "correct_answer": "Nitrogen",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_12",
+    "text": "Which vitamin is produced by the skin when exposed to sunlight?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D", "Vitamin E", "Vitamin K", "Vitamin B6"],
+    "correct_answer": "Vitamin D",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_13",
+    "text": "What is the chemical symbol for gold?",
+    "options": ["Go", "Gd", "Au", "Ag", "Fe", "Pb", "Cu"],
+    "correct_answer": "Au",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_14",
+    "text": "What is the name of the process by which plants make their own food?",
+    "options": ["Respiration", "Transpiration", "Photosynthesis", "Digestion", "Fermentation", "Germination", "Pollination"],
+    "correct_answer": "Photosynthesis",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_15",
+    "text": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Methane", "Hydrogen", "Argon", "Helium"],
+    "correct_answer": "Carbon Dioxide",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_16",
+    "text": "Which of these is NOT a state of matter?",
+    "options": ["Solid", "Liquid", "Gas", "Plasma", "Energy", "Time", "Light"],
+    "correct_answer": "Time",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_17",
+    "text": "What is the largest organ in the human body?",
+    "options": ["Liver", "Heart", "Brain", "Skin", "Large Intestine", "Lung", "Stomach"],
+    "correct_answer": "Skin",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_18",
+    "text": "Which scientist proposed the theory of evolution by natural selection?",
+    "options": ["Albert Einstein", "Isaac Newton", "Charles Darwin", "Marie Curie", "Galileo Galilei", "Nikola Tesla", "Stephen Hawking"],
+    "correct_answer": "Charles Darwin",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_19",
+    "text": "What is the name of the force that pulls objects towards the center of the Earth?",
+    "options": ["Magnetism", "Friction", "Gravity", "Inertia", "Velocity", "Acceleration", "Density"],
+    "correct_answer": "Gravity",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_20",
+    "text": "Which of these animals is a mammal?",
+    "options": ["Shark", "Frog", "Eagle", "Salmon", "Turtle", "Whale", "Crocodile"],
+    "correct_answer": "Whale",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_21",
+    "text": "What is the boiling point of water in degrees Celsius?",
+    "options": ["0", "50", "90", "100", "120", "150", "200"],
+    "correct_answer": "100",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_22",
+    "text": "Which of these is a renewable source of energy?",
+    "options": ["Coal", "Natural Gas", "Oil", "Solar", "Nuclear", "Petroleum", "Diesel"],
+    "correct_answer": "Solar",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_23",
+    "text": "What is the name of the tiny, basic unit of all living things?",
+    "options": ["Atom", "Molecule", "Cell", "Tissue", "Organ", "Nucleus", "Electron"],
+    "correct_answer": "Cell",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_24",
+    "text": "Which planet is the largest in our solar system?",
+    "options": ["Earth", "Saturn", "Neptune", "Uranus", "Mars", "Venus", "Mercury"],
+    "correct_answer": "Jupiter",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_25",
+    "text": "What type of rock is formed by the cooling of lava?",
+    "options": ["Sedimentary", "Metamorphic", "Igneous", "Limestone", "Marble", "Sandstone", "Granite"],
+    "correct_answer": "Igneous",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_26",
+    "text": "Which of these is the primary source of energy for most ecosystems?",
+    "options": ["The Moon", "The Wind", "The Sun", "Geothermal Vents", "Lightning", "Ocean Currents", "Rain"],
+    "correct_answer": "The Sun",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_27",
+    "text": "What is the chemical symbol for table salt?",
+    "options": ["Na", "Cl", "NaCl", "S", "Sa", "Tl", "K"],
+    "correct_answer": "NaCl",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_28",
+    "text": "Which sense organ is responsible for hearing?",
+    "options": ["Nose", "Tongue", "Skin", "Eyes", "Ears", "Brain", "Spine"],
+    "correct_answer": "Ears",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_29",
+    "text": "What is the name of the process where a liquid turns into a gas?",
+    "options": ["Freezing", "Melting", "Condensation", "Evaporation", "Sublimation", "Deposition", "Solidification"],
+    "correct_answer": "Evaporation",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
+    "id": "sci_1_30",
+    "text": "Which of these is a vertebrate?",
+    "options": ["Spider", "Jellyfish", "Earthworm", "Starfish", "Octopus", "Lobster", "Dog"],
+    "correct_answer": "Dog",
+    "level": 1,
+    "topic": "Science",
+    "points": 10
+  },
+  {
     "id": "sci_2_1",
-    "text": "Which scientist proposed the uncertainty principle in quantum mechanics?",
-    "options": ["Albert Einstein", "Niels Bohr", "Werner Heisenberg", "Max Planck", "Erwin Schrödinger", "Richard Feynman", "Paul Dirac"],
-    "correct_answer": "Werner Heisenberg",
+    "text": "What is the name of the bond formed by the sharing of electrons between atoms?",
+    "options": ["Ionic bond", "Hydrogen bond", "Covalent bond", "Metallic bond", "Van der Waals force", "Dipole-dipole", "Coordinate bond"],
+    "correct_answer": "Covalent bond",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_2",
-    "text": "Which planet rotates in the opposite direction compared to most others in the Solar System?",
-    "options": ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Uranus", "Saturn"],
-    "correct_answer": "Venus",
+    "text": "In the human body, which gland is known as the 'master gland'?",
+    "options": ["Thyroid", "Adrenal", "Pancreas", "Pituitary", "Pineal", "Thymus", "Hypothalamus"],
+    "correct_answer": "Pituitary",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_3",
-    "text": "Which of the following is NOT a fundamental force of nature?",
-    "options": ["Gravitational force", "Electromagnetic force", "Weak nuclear force", "Strong nuclear force", "Frictional force", "Van der Waals force", "Casimir force"],
-    "correct_answer": "Frictional force",
+    "text": "What is the SI unit of electric current?",
+    "options": ["Volt", "Ohm", "Watt", "Ampere", "Coulomb", "Joule", "Hertz"],
+    "correct_answer": "Ampere",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_4",
-    "text": "The double-helix model of DNA was discovered in 1953 by?",
-    "options": ["Watson and Crick", "Watson and Franklin", "Crick and Mendel", "Mendel and Darwin", "Rosalind Franklin and Wilkins", "Einstein and Bohr", "Pasteur and Koch"],
-    "correct_answer": "Watson and Crick",
+    "text": "Which of these elements is a noble gas?",
+    "options": ["Chlorine", "Fluorine", "Oxygen", "Nitrogen", "Helium", "Hydrogen", "Carbon"],
+    "correct_answer": "Helium",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_5",
-    "text": "In Einstein’s equation E=mc², what does 'c' represent?",
-    "options": ["Charge of electron", "Specific heat capacity", "Speed of sound", "Speed of light in vacuum", "Constant of gravity", "Critical mass", "Coefficient of friction"],
-    "correct_answer": "Speed of light in vacuum",
+    "text": "What is the process by which a solid changes directly into a gas without becoming a liquid first?",
+    "options": ["Evaporation", "Condensation", "Deposition", "Sublimation", "Melting", "Freezing", "Boiling"],
+    "correct_answer": "Sublimation",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_6",
-    "text": "Which vitamin deficiency causes scurvy?",
-    "options": ["Vitamin A", "Vitamin B1", "Vitamin C", "Vitamin D", "Vitamin E", "Vitamin K", "Vitamin B12"],
-    "correct_answer": "Vitamin C",
+    "text": "Which part of a neuron receives signals from other neurons?",
+    "options": ["Axon", "Synapse", "Myelin sheath", "Dendrite", "Nucleus", "Cell body", "Terminal button"],
+    "correct_answer": "Dendrite",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_7",
-    "text": "Which is the most abundant gas in Earth’s atmosphere?",
-    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon", "Hydrogen", "Methane", "Helium"],
-    "correct_answer": "Nitrogen",
+    "text": "What is the chemical formula for sulfuric acid?",
+    "options": ["HCl", "HNO3", "H2SO4", "H3PO4", "CH3COOH", "H2CO3", "NaOH"],
+    "correct_answer": "H2SO4",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_8",
-    "text": "What is the SI unit of electric resistance?",
-    "options": ["Ohm", "Watt", "Ampere", "Volt", "Tesla", "Farad", "Henry"],
-    "correct_answer": "Ohm",
+    "text": "In physics, what is the rate of change of velocity called?",
+    "options": ["Speed", "Momentum", "Force", "Acceleration", "Displacement", "Energy", "Power"],
+    "correct_answer": "Acceleration",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_9",
-    "text": "Which of these is NOT a greenhouse gas?",
-    "options": ["Carbon dioxide", "Methane", "Ozone", "Water vapor", "Oxygen", "Nitrous oxide", "Chlorofluorocarbons"],
-    "correct_answer": "Oxygen",
+    "text": "Which blood type is known as the universal donor?",
+    "options": ["A+", "B-", "AB+", "O+", "A-", "AB-", "O-"],
+    "correct_answer": "O-",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
     "id": "sci_2_10",
-    "text": "Which part of the human brain controls balance and coordination?",
-    "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Thalamus", "Hypothalamus", "Pons", "Midbrain"],
-    "correct_answer": "Cerebellum",
+    "text": "What is the main function of the ribosomes in a cell?",
+    "options": ["Energy production", "Protein synthesis", "Storage", "Transport", "Waste removal", "Cell division", "Protection"],
+    "correct_answer": "Protein synthesis",
     "level": 2,
     "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_1",
-    "text": "Who is known as the father of modern computer science?",
-    "options": ["Alan Turing", "Charles Babbage", "John von Neumann", "Bill Gates", "Steve Jobs", "Ada Lovelace", "Tim Berners-Lee"],
-    "correct_answer": "Alan Turing",
+    "id": "sci_2_11",
+    "text": "Which law states that the pressure of a given mass of gas is inversely proportional to its volume at constant temperature?",
+    "options": ["Charles's Law", "Gay-Lussac's Law", "Avogadro's Law", "Boyle's Law", "Henry's Law", "Dalton's Law", "Ideal Gas Law"],
+    "correct_answer": "Boyle's Law",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_2",
-    "text": "Which company developed the first microprocessor (Intel 4004) in 1971?",
-    "options": ["IBM", "Apple", "Intel", "Microsoft", "AMD", "Nvidia", "Motorola"],
-    "correct_answer": "Intel",
+    "id": "sci_2_12",
+    "text": "What is the name of the phenomenon where light waves change direction when passing through a medium of different density?",
+    "options": ["Reflection", "Diffraction", "Refraction", "Dispersion", "Scattering", "Interference", "Polarization"],
+    "correct_answer": "Refraction",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_3",
-    "text": "In networking, what does DNS stand for?",
-    "options": ["Domain Numbering System", "Domain Name Server", "Domain Name System", "Data Network Service", "Dynamic Naming Service", "Digital Node System", "Distributed Network Server"],
-    "correct_answer": "Domain Name System",
+    "id": "sci_2_13",
+    "text": "Which of these is a decomposer in an ecosystem?",
+    "options": ["Grass", "Rabbit", "Hawk", "Mushroom", "Fox", "Eagle", "Snake"],
+    "correct_answer": "Mushroom",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_4",
-    "text": "Which programming paradigm does Python mainly support?",
-    "options": ["Functional", "Procedural", "Object-Oriented", "Event-driven", "Logic-based", "Declarative", "Assembly-based"],
-    "correct_answer": "Object-Oriented",
+    "id": "sci_2_14",
+    "text": "What is the atomic number of carbon?",
+    "options": ["6", "12", "14", "16", "8", "10", "4"],
+    "correct_answer": "6",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_5",
-    "text": "Which company is behind the Android operating system?",
-    "options": ["Apple", "Nokia", "Samsung", "Google", "Microsoft", "IBM", "Sony"],
-    "correct_answer": "Google",
+    "id": "sci_2_15",
+    "text": "Which layer of the Earth's atmosphere contains the ozone layer?",
+    "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere", "Ionosphere", "Magnetosphere"],
+    "correct_answer": "Stratosphere",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_6",
-    "text": "Which database type is MongoDB?",
-    "options": ["Relational", "Document-oriented", "Graph", "Key-Value", "Time-series", "Hierarchical", "Columnar"],
-    "correct_answer": "Document-oriented",
+    "id": "sci_2_16",
+    "text": "In a chemical reaction, what is the name of the substance that is formed?",
+    "options": ["Reactant", "Catalyst", "Product", "Enzyme", "Solvent", "Element", "Compound"],
+    "correct_answer": "Product",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_7",
-    "text": "The first email was sent in which year?",
-    "options": ["1969", "1971", "1975", "1980", "1985", "1990", "1995"],
-    "correct_answer": "1971",
+    "id": "sci_2_17",
+    "text": "What is the name of the process by which plants release water vapor into the air?",
+    "options": ["Photosynthesis", "Respiration", "Transpiration", "Evaporation", "Condensation", "Precipitation", "Perspiration"],
+    "correct_answer": "Transpiration",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_8",
-    "text": "Moore’s Law predicts that the number of transistors in a microchip doubles approximately every:",
-    "options": ["6 months", "1 year", "2 years", "3 years", "5 years", "10 years", "20 years"],
-    "correct_answer": "2 years",
+    "id": "sci_2_18",
+    "text": "Which type of rock is marble, which forms from limestone under heat and pressure?",
+    "options": ["Sedimentary", "Igneous", "Metamorphic", "Volcanic", "Plutonic", "Clastic", "Organic"],
+    "correct_answer": "Metamorphic",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_9",
-    "text": "Which cybersecurity attack is based on overwhelming a server with traffic?",
-    "options": ["Phishing", "Man-in-the-middle", "SQL Injection", "DoS/DDoS", "Ransomware", "Trojan", "Brute Force"],
-    "correct_answer": "DoS/DDoS",
+    "id": "sci_2_19",
+    "text": "What is the primary function of white blood cells (leukocytes)?",
+    "options": ["Carry oxygen", "Fight infection", "Clot blood", "Transport nutrients", "Remove waste", "Build muscle", "Digest food"],
+    "correct_answer": "Fight infection",
     "level": 2,
-    "topic": "Technology",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "tech_2_10",
-    "text": "Which programming language is most commonly used for developing iOS applications?",
-    "options": ["C++", "Java", "Kotlin", "Objective-C", "Swift", "Python", "Ruby"],
-    "correct_answer": "Swift",
+    "id": "sci_2_20",
+    "text": "Which subatomic particle has a negative charge?",
+    "options": ["Proton", "Neutron", "Electron", "Quark", "Neutrino", "Positron", "Photon"],
+    "correct_answer": "Electron",
     "level": 2,
-    "topic": "Technology",
-    "points": 20
-  }, 
-  {
-    "id": "hist_2_1",
-    "text": "Who was the first emperor of the Roman Empire?",
-    "options": ["Julius Caesar", "Augustus", "Nero", "Constantine", "Tiberius", "Caligula", "Marcus Aurelius"],
-    "correct_answer": "Augustus",
-    "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_2",
-    "text": "The Great Fire of London occurred in which year?",
-    "options": ["1555", "1605", "1666", "1707", "1750", "1800", "1850"],
-    "correct_answer": "1666",
+    "id": "sci_2_21",
+    "text": "What is the name of the longest bone in the human body?",
+    "options": ["Humerus", "Radius", "Ulna", "Tibia", "Fibula", "Femur", "Pelvis"],
+    "correct_answer": "Femur",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_3",
-    "text": "Who led the Soviet Union during World War II?",
-    "options": ["Vladimir Lenin", "Joseph Stalin", "Nikita Khrushchev", "Leon Trotsky", "Mikhail Gorbachev", "Boris Yeltsin", "Ivan the Terrible"],
-    "correct_answer": "Joseph Stalin",
+    "id": "sci_2_22",
+    "text": "Which planet has the most extensive ring system in our solar system?",
+    "options": ["Jupiter", "Saturn", "Uranus", "Neptune", "Mars", "Venus", "Mercury"],
+    "correct_answer": "Saturn",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_4",
-    "text": "Which treaty ended World War I?",
-    "options": ["Treaty of Versailles", "Treaty of Paris", "Treaty of Ghent", "Treaty of Tordesillas", "Treaty of Vienna", "Treaty of Utrecht", "Treaty of Frankfurt"],
-    "correct_answer": "Treaty of Versailles",
+    "id": "sci_2_23",
+    "text": "What is the term for a substance that speeds up a chemical reaction without being consumed?",
+    "options": ["Reactant", "Product", "Inhibitor", "Catalyst", "Solvent", "Element", "Compound"],
+    "correct_answer": "Catalyst",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_5",
-    "text": "Who was the first female Prime Minister of the United Kingdom?",
-    "options": ["Margaret Thatcher", "Theresa May", "Indira Gandhi", "Golda Meir", "Angela Merkel", "Benazir Bhutto", "Queen Elizabeth I"],
-    "correct_answer": "Margaret Thatcher",
+    "id": "sci_2_24",
+    "text": "Which of these is a vestigial organ in humans?",
+    "options": ["Heart", "Liver", "Appendix", "Lung", "Kidney", "Stomach", "Brain"],
+    "correct_answer": "Appendix",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_6",
-    "text": "The Cold War was primarily between which two countries?",
-    "options": ["USA and UK", "USA and USSR", "USA and Germany", "USSR and China", "Germany and Japan", "France and UK", "USA and Japan"],
-    "correct_answer": "USA and USSR",
+    "id": "sci_2_25",
+    "text": "What is the pH of a neutral solution at 25°C?",
+    "options": ["0", "1", "7", "10", "14", "5", "8"],
+    "correct_answer": "7",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_7",
-    "text": "Who was the leader of the Indian independence movement and is known as 'Mahatma'?",
-    "options": ["Jawaharlal Nehru", "Bhagat Singh", "Mahatma Gandhi", "Subhas Chandra Bose", "Rajendra Prasad", "Sardar Patel", "Bal Gangadhar Tilak"],
-    "correct_answer": "Mahatma Gandhi",
+    "id": "sci_2_26",
+    "text": "Which scientist is credited with the discovery of the law of gravity?",
+    "options": ["Albert Einstein", "Niels Bohr", "Isaac Newton", "Galileo Galilei", "Marie Curie", "Stephen Hawking", "Charles Darwin"],
+    "correct_answer": "Isaac Newton",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_8",
-    "text": "Which empire built Machu Picchu?",
-    "options": ["Aztec", "Inca", "Mayan", "Roman", "Ottoman", "Mongol", "Persian"],
-    "correct_answer": "Inca",
+    "id": "sci_2_27",
+    "text": "What is the name of the process where a nucleus splits into smaller parts, releasing a large amount of energy?",
+    "options": ["Fusion", "Fission", "Radioactivity", "Decay", "Synthesis", "Combustion", "Oxidation"],
+    "correct_answer": "Fission",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_9",
-    "text": "Who was assassinated in Sarajevo in 1914, sparking World War I?",
-    "options": ["Archduke Franz Ferdinand", "Kaiser Wilhelm II", "Tsar Nicholas II", "Woodrow Wilson", "Winston Churchill", "Joseph Stalin", "Adolf Hitler"],
-    "correct_answer": "Archduke Franz Ferdinand",
+    "id": "sci_2_28",
+    "text": "In the periodic table, what are the vertical columns called?",
+    "options": ["Periods", "Groups", "Rows", "Series", "Blocks", "Families", "Lines"],
+    "correct_answer": "Groups",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
   },
   {
-    "id": "hist_2_10",
-    "text": "The Berlin Wall fell in which year?",
-    "options": ["1979", "1985", "1987", "1989", "1991", "1995", "2000"],
-    "correct_answer": "1989",
+    "id": "sci_2_29",
+    "text": "Which type of energy is stored in a stretched spring?",
+    "options": ["Kinetic energy", "Thermal energy", "Chemical energy", "Potential energy", "Sound energy", "Light energy", "Nuclear energy"],
+    "correct_answer": "Potential energy",
     "level": 2,
-    "topic": "History",
+    "topic": "Science",
     "points": 20
-  }
+  },
+  {
+    "id": "sci_2_30",
+    "text": "What is the name of the tube that connects the mouth to the stomach?",
+    "options": ["Trachea", "Esophagus", "Small intestine", "Large intestine", "Bronchus", "Ureter", "Urethra"],
+    "correct_answer": "Esophagus",
+    "level": 2,
+    "topic": "Science",
+    "points": 20
+  },
+  {
+    "id": "sci_3_1",
+    "text": "Which of these is NOT a function of the liver?",
+    "options": ["Producing bile", "Detoxifying blood", "Storing glycogen", "Producing insulin", "Synthesizing plasma proteins", "Storing vitamins", "Breaking down old red blood cells"],
+    "correct_answer": "Producing insulin",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_2",
+    "text": "What is the primary function of the Schleiden and Schwann proposed?",
+    "options": ["Theory of Evolution", "Cell Theory", "Germ Theory of Disease", "Theory of Relativity", "Atomic Theory", "Law of Inheritance", "Plate Tectonic Theory"],
+    "correct_answer": "Cell Theory",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_3",
+    "text": "In the electromagnetic spectrum, which type of wave has the shortest wavelength?",
+    "options": ["Radio waves", "Microwaves", "Infrared", "Visible light", "Ultraviolet", "X-rays", "Gamma rays"],
+    "correct_answer": "Gamma rays",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_4",
+    "text": "What is the name of the process by which mRNA is decoded by a ribosome to produce a specific amino acid chain?",
+    "options": ["Transcription", "Replication", "Translation", "Translocation", "Transformation", "Transduction", "Termination"],
+    "correct_answer": "Translation",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_5",
+    "text": "Which of these elements is the most electronegative?",
+    "options": ["Sodium", "Carbon", "Oxygen", "Chlorine", "Fluorine", "Nitrogen", "Hydrogen"],
+    "correct_answer": "Fluorine",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_6",
+    "text": "What is the main component of natural gas?",
+    "options": ["Ethane", "Propane", "Butane", "Methane", "Carbon Dioxide", "Hydrogen Sulfide", "Nitrogen"],
+    "correct_answer": "Methane",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_7",
+    "text": "Which part of the brain is responsible for coordinating muscle movements and maintaining balance?",
+    "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus", "Thalamus", "Hippocampus", "Amygdala"],
+    "correct_answer": "Cerebellum",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_8",
+    "text": "What is the term for a species that has a disproportionately large effect on its environment relative to its abundance?",
+    "options": ["Endemic species", "Keystone species", "Invasive species", "Pioneer species", "Indicator species", "Flagship species", "Umbrella species"],
+    "correct_answer": "Keystone species",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_9",
+    "text": "In genetics, what is the term for the physical expression of a gene?",
+    "options": ["Genotype", "Phenotype", "Allele", "Chromosome", "Haploid", "Diploid", "Heterozygous"],
+    "correct_answer": "Phenotype",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_10",
+    "text": "Which law of thermodynamics states that energy cannot be created or destroyed, only transformed?",
+    "options": ["Zeroth Law", "First Law", "Second Law", "Third Law", "Law of Conservation of Mass", "Law of Entropy", "Law of Enthalpy"],
+    "correct_answer": "First Law",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_11",
+    "text": "What is the name of the supercontinent that existed during the late Paleozoic and early Mesozoic eras?",
+    "options": ["Pangaea", "Laurasia", "Gondwana", "Rodinia", "Eurasia", "Nuna", "Columbia"],
+    "correct_answer": "Pangaea",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_12",
+    "text": "Which of these is a characteristic of an acid?",
+    "options": ["Turns litmus paper blue", "Feels slippery", "Has a pH greater than 7", "Donates protons (H+ ions)", "Accepts protons", "Tastes bitter", "Produces OH- ions in water"],
+    "correct_answer": "Donates protons (H+ ions)",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_13",
+    "text": "What is the process by which a star produces its energy?",
+    "options": ["Nuclear fission", "Nuclear fusion", "Radioactive decay", "Combustion", "Chemical synthesis", "Electromagnetic induction", "Gravitational compression"],
+    "correct_answer": "Nuclear fusion",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_14",
+    "text": "In the human eye, which cells are responsible for color vision?",
+    "options": ["Rods", "Cones", "Ganglion cells", "Bipolar cells", "Amacrine cells", "Horizontal cells", "Photoreceptors"],
+    "correct_answer": "Cones",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_15",
+    "text": "What is the term for the minimum amount of energy required to start a chemical reaction?",
+    "options": ["Activation energy", "Free energy", "Kinetic energy", "Potential energy", "Ionization energy", "Bond energy", "Threshold energy"],
+    "correct_answer": "Activation energy",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_16",
+    "text": "Which biogeochemical cycle does NOT involve a gaseous phase?",
+    "options": ["Carbon cycle", "Nitrogen cycle", "Water cycle", "Phosphorus cycle", "Oxygen cycle", "Sulfur cycle", "Hydrogen cycle"],
+    "correct_answer": "Phosphorus cycle",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_17",
+    "text": "What is the name of the process where homologous chromosomes exchange genetic material during meiosis?",
+    "options": ["Crossing over", "Synapsis", "Cytokinesis", "Binary fission", "Transcription", "Replication", "Mutation"],
+    "correct_answer": "Crossing over",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_18",
+    "text": "Which type of mirror always produces a virtual, upright, and diminished image?",
+    "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Spherical mirror", "Parabolic mirror", "Diverging mirror", "Converging mirror"],
+    "correct_answer": "Convex mirror",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_19",
+    "text": "What is the chemical name for laughing gas?",
+    "options": ["Nitrogen dioxide", "Nitrous oxide", "Nitric oxide", "Ammonia", "Carbon monoxide", "Sulfur dioxide", "Hydrogen peroxide"],
+    "correct_answer": "Nitrous oxide",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_3_20",
+    "text": "In ecology, what is the term for the maximum number of individuals of a species that an environment can support indefinitely?",
+    "options": ["Carrying capacity", "Limiting factor", "Population density", "Biotic potential", "Exponential growth", "Logistic growth", "Sustainable yield"],
+    "correct_answer": "Carrying capacity",
+    "level": 3,
+    "topic": "Science",
+    "points": 30
+  },
+  {
+    "id": "sci_4_1",
+    "text": "A ball is dropped from a height of 20 meters. Neglecting air resistance, what is its velocity (in m/s) just before it hits the ground? (Use g = 10 m/s²)",
+    "options": ["10 m/s", "14.14 m/s", "20 m/s", "22.36 m/s", "200 m/s", "400 m/s", "40 m/s"],
+    "correct_answer": "20 m/s",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_2",
+    "text": "What is the pH of a 0.001 M solution of HCl, a strong acid?",
+    "options": ["1", "2", "3", "4", "5", "6", "7"],
+    "correct_answer": "3",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_3",
+    "text": "A circuit has a resistance of 10 Ω and a current of 2 A. What is the power dissipated?",
+    "options": ["5 W", "20 W", "40 W", "100 W", "0.2 W", "12 W", "200 W"],
+    "correct_answer": "40 W",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_4",
+    "text": "If the half-life of a radioactive isotope is 5 years, what fraction of a sample remains after 15 years?",
+    "options": ["1/2", "1/4", "1/8", "1/16", "1/32", "1/64", "1/128"],
+    "correct_answer": "1/8",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_5",
+    "text": "An object of mass 2 kg is moving at a constant velocity of 5 m/s. What is its kinetic energy?",
+    "options": ["5 J", "10 J", "25 J", "50 J", "100 J", "250 J", "500 J"],
+    "correct_answer": "25 J",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_6",
+    "text": "In the CRISPR-Cas9 gene-editing system, what is the primary function of the guide RNA (gRNA)?",
+    "options": ["To unwind the DNA double helix", "To identify the specific target DNA sequence", "To cut the target DNA sequence", "To repair the cut DNA sequence", "To translate the edited gene into protein", "To act as a primer for DNA replication", "To methylate the target DNA"],
+    "correct_answer": "To identify the specific target DNA sequence",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_7",
+    "text": "Which thermodynamic potential is minimized for a system at constant temperature and pressure when it reaches equilibrium?",
+    "options": ["Internal Energy (U)", "Enthalpy (H)", "Helmholtz Free Energy (A)", "Gibbs Free Energy (G)", "Entropy (S)", "Chemical Potential (μ)", "Heat Capacity (Cv)"],
+    "correct_answer": "Gibbs Free Energy (G)",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_8",
+    "text": "In quantum mechanics, what principle states that it is impossible to simultaneously know the exact position and exact momentum of a particle?",
+    "options": ["Pauli Exclusion Principle", "Heisenberg Uncertainty Principle", "Aufbau Principle", "Correspondence Principle", "Superposition Principle", "Exclusion Principle", "Copenhagen Interpretation"],
+    "correct_answer": "Heisenberg Uncertainty Principle",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_9",
+    "text": "What is the primary mechanism by which antibiotics of the beta-lactam class (e.g., penicillin) kill bacteria?",
+    "options": ["Inhibiting protein synthesis", "Inhibiting nucleic acid synthesis", "Disrupting the cell membrane", "Inhibiting cell wall synthesis", "Inhibiting metabolic pathways", "Blocking folate synthesis", "Inhibiting DNA gyrase"],
+    "correct_answer": "Inhibiting cell wall synthesis",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_10",
+    "text": "Which of the following is a key characteristic of a Bose-Einstein condensate?",
+    "options": ["All particles occupy the lowest quantum state", "It exhibits zero electrical resistance", "It only occurs at extremely high temperatures", "It is composed entirely of fermions", "It violates the Pauli exclusion principle", "It is a high-energy plasma state", "It is the state of matter inside neutron stars"],
+    "correct_answer": "All particles occupy the lowest quantum state",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_11",
+    "text": "In astrophysics, what is the Chandrasekhar limit?",
+    "options": ["The maximum mass of a stable white dwarf star", "The distance to the nearest star system", "The minimum mass for nuclear fusion to ignite", "The event horizon radius of a black hole", "The maximum luminosity of a main sequence star", "The age of the universe", "The density threshold for star formation"],
+    "correct_answer": "The maximum mass of a stable white dwarf star",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_12",
+    "text": "What is the primary function of the enzyme telomerase?",
+    "options": ["Unwinding DNA during replication", "Proofreading newly synthesized DNA", "Adding telomeric repeats to chromosome ends", "Repairing double-strand breaks", "Catalyzing the formation of mRNA", "Synthesizing ribosomal RNA", "Digesting foreign DNA"],
+    "correct_answer": "Adding telomeric repeats to chromosome ends",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_13",
+    "text": "In the standard model of particle physics, which force is mediated by the exchange of gluons?",
+    "options": ["Electromagnetic force", "Weak nuclear force", "Strong nuclear force", "Gravitational force", "Higgs field interaction", "Van der Waals force", "Casimir force"],
+    "correct_answer": "Strong nuclear force",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_14",
+    "text": "What is the name of the geological process that creates new oceanic crust at mid-ocean ridges?",
+    "options": ["Subduction", "Seafloor spreading", "Orogeny", "Accretion", "Rifting", "Transform faulting", "Mantle pluming"],
+    "correct_answer": "Seafloor spreading",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_15",
+    "text": "Which neurological structure is primarily responsible for the formation and consolidation of long-term memories?",
+    "options": ["Amygdala", "Cerebellum", "Hippocampus", "Hypothalamus", "Basal ganglia", "Prefrontal cortex", "Thalamus"],
+    "correct_answer": "Hippocampus",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_16",
+    "text": "In organic chemistry, what term describes a molecule that is non-superimposable on its mirror image?",
+    "options": ["Achiral", "Chiral", "Meso compound", "Racemic mixture", "Enantiomer", "Diastereomer", "Conformer"],
+    "correct_answer": "Chiral",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_17",
+    "text": "What phenomenon in fluid dynamics describes the decrease in pressure of a fluid that occurs when the fluid's speed increases?",
+    "options": ["Bernoulli's principle", "Pascal's principle", "Archimedes' principle", "Poiseuille's law", "Stokes' law", "Venturi effect", "Coanda effect"],
+    "correct_answer": "Bernoulli's principle",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_18",
+    "text": "In ecology, what does the Shannon-Wiener index measure?",
+    "options": ["Species richness", "Species evenness", "Species diversity", "Population density", "Carrying capacity", "Trophic level efficiency", "Net primary productivity"],
+    "correct_answer": "Species diversity",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_19",
+    "text": "Which type of telescope uses a combination of lenses and mirrors to form an image?",
+    "options": ["Refracting telescope", "Reflecting telescope", "Catadioptric telescope", "Radio telescope", "X-ray telescope", "Gamma-ray telescope", "Infrared telescope"],
+    "correct_answer": "Catadioptric telescope",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+    "id": "sci_4_20",
+    "text": "What is the primary role of the p53 protein in the cell?",
+    "options": ["To promote cell cycle progression", "To act as a tumor suppressor", "To repair DNA damage", "To initiate apoptosis", "To regulate metabolism", "To facilitate cell adhesion", "To control cellular differentiation"],
+    "correct_answer": "To act as a tumor suppressor",
+    "level": 4,
+    "topic": "Science",
+    "points": 50
+  },
+  {
+  "id": "tech_1_1",
+  "text": "What does 'CPU' stand for in computing?",
+  "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Core Processing Unit", "Central Power Unit", "Computer Processing Unity", "Control Processing Unit"],
+  "correct_answer": "Central Processing Unit",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_2",
+  "text": "Which of these is a popular operating system developed by Apple?",
+  "options": ["Windows", "Linux", "Android", "iOS", "Chrome OS", "Ubuntu", "macOS"],
+  "correct_answer": "macOS",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_3",
+  "text": "What does 'URL' stand for?",
+  "options": ["Uniform Resource Locator", "Universal Reference Link", "Unified Resource Language", "Universal Resource Locator", "Uniform Reference Link", "Unified Resource Locator", "Universal Reference Language"],
+  "correct_answer": "Uniform Resource Locator",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_4",
+  "text": "Which company created the Windows operating system?",
+  "options": ["Apple", "Google", "Microsoft", "IBM", "Dell", "Samsung", "Intel"],
+  "correct_answer": "Microsoft",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_5",
+  "text": "What is the name for a malicious software that can replicate itself?",
+  "options": ["Firewall", "Virus", "Spyware", "Adware", "Malware", "Ransomware", "Phishing"],
+  "correct_answer": "Virus",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_6",
+  "text": "Which of these is a social media platform?",
+  "options": ["Excel", "PowerPoint", "Facebook", "Word", "Outlook", "Photoshop", "Chrome"],
+  "correct_answer": "Facebook",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_7",
+  "text": "What does 'HTML' stand for?",
+  "options": ["Hypertext Markup Language", "High Tech Modern Language", "Hyper Transfer Markup Language", "Hypertext Modern Language", "High Text Markup Language", "Hyper Transfer Modern Language", "Hypertext Transfer Markup Language"],
+  "correct_answer": "Hypertext Markup Language",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_8",
+  "text": "Which device is used to connect a computer to the internet?",
+  "options": ["Monitor", "Keyboard", "Modem", "Printer", "Speaker", "Mouse", "Scanner"],
+  "correct_answer": "Modem",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_9",
+  "text": "What is the name of Google's web browser?",
+  "options": ["Firefox", "Safari", "Edge", "Chrome", "Opera", "Internet Explorer", "Brave"],
+  "correct_answer": "Chrome",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_10",
+  "text": "Which of these is a search engine?",
+  "options": ["Facebook", "Twitter", "Google", "Instagram", "WhatsApp", "TikTok", "LinkedIn"],
+  "correct_answer": "Google",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_11",
+  "text": "What does 'Wi-Fi' stand for?",
+  "options": ["Wireless Fidelity", "Wide Frequency", "Wireless Frequency", "Wide Fidelity", "Wireless Internet", "Wide Internet", "Wireless Network"],
+  "correct_answer": "Wireless Fidelity",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_12",
+  "text": "Which company is known for its iPhone?",
+  "options": ["Samsung", "Google", "Microsoft", "Apple", "Huawei", "Xiaomi", "Nokia"],
+  "correct_answer": "Apple",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_13",
+  "text": "What is the main purpose of a firewall?",
+  "options": ["Speed up internet", "Block unauthorized access", "Store data", "Print documents", "Scan images", "Play games", "Create documents"],
+  "correct_answer": "Block unauthorized access",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_14",
+  "text": "Which of these is a cloud storage service?",
+  "options": ["Google Drive", "Microsoft Word", "Adobe Photoshop", "Windows Media Player", "VLC Media Player", "Spotify", "Netflix"],
+  "correct_answer": "Google Drive",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_15",
+  "text": "What does 'PDF' stand for?",
+  "options": ["Portable Document Format", "Personal Data File", "Printable Document Form", "Public Document Format", "Portable Data File", "Personal Document Format", "Printable Data Form"],
+  "correct_answer": "Portable Document Format",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_16",
+  "text": "Which of these is a programming language?",
+  "options": ["HTML", "CSS", "Python", "HTTP", "FTP", "URL", "PDF"],
+  "correct_answer": "Python",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_17",
+  "text": "What is the name of Amazon's virtual assistant?",
+  "options": ["Siri", "Google Assistant", "Alexa", "Cortana", "Bixby", "Watson", "Dragon"],
+  "correct_answer": "Alexa",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_18",
+  "text": "Which device is used to display computer output visually?",
+  "options": ["Keyboard", "Monitor", "Printer", "Scanner", "Modem", "Router", "Mouse"],
+  "correct_answer": "Monitor",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_19",
+  "text": "What does 'USB' stand for?",
+  "options": ["Universal Serial Bus", "United Serial Bus", "Universal System Bus", "United System Bus", "Universal Service Bus", "United Service Bus", "Universal Serial Bridge"],
+  "correct_answer": "Universal Serial Bus",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_20",
+  "text": "Which of these is a video streaming platform?",
+  "options": ["Spotify", "Netflix", "Twitter", "Facebook", "Instagram", "LinkedIn", "Pinterest"],
+  "correct_answer": "Netflix",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_21",
+  "text": "What is the name of Microsoft's word processing software?",
+  "options": ["Excel", "PowerPoint", "Word", "Outlook", "Access", "Publisher", "OneNote"],
+  "correct_answer": "Word",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_22",
+  "text": "Which of these is a type of computer memory that loses its contents when power is turned off?",
+  "options": ["ROM", "RAM", "Hard Drive", "SSD", "Flash Drive", "CD", "DVD"],
+  "correct_answer": "RAM",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_23",
+  "text": "What does 'GPS' stand for?",
+  "options": ["Global Positioning System", "General Positioning System", "Global Placement System", "General Placement System", "Global Pointing System", "General Pointing System", "Global Program System"],
+  "correct_answer": "Global Positioning System",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_24",
+  "text": "Which company created the Android operating system?",
+  "options": ["Apple", "Microsoft", "Google", "Samsung", "IBM", "Dell", "Intel"],
+  "correct_answer": "Google",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_25",
+  "text": "What is the name for a wireless technology used for exchanging data over short distances?",
+  "options": ["Wi-Fi", "Bluetooth", "NFC", "GPS", "4G", "5G", "LTE"],
+  "correct_answer": "Bluetooth",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_26",
+  "text": "Which of these is a database management system?",
+  "options": ["MySQL", "Java", "Python", "C++", "HTML", "CSS", "JavaScript"],
+  "correct_answer": "MySQL",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_27",
+  "text": "What does 'VPN' stand for?",
+  "options": ["Virtual Private Network", "Very Private Network", "Virtual Public Network", "Very Public Network", "Virtual Personal Network", "Very Personal Network", "Virtual Protected Network"],
+  "correct_answer": "Virtual Private Network",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_28",
+  "text": "Which of these is a version control system?",
+  "options": ["Git", "Java", "Python", "Ruby", "PHP", "Swift", "Kotlin"],
+  "correct_answer": "Git",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_29",
+  "text": "What is the name of Apple's virtual assistant?",
+  "options": ["Alexa", "Google Assistant", "Siri", "Cortana", "Bixby", "Watson", "Dragon"],
+  "correct_answer": "Siri",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_1_30",
+  "text": "Which of these is a messaging app?",
+  "options": ["WhatsApp", "Excel", "PowerPoint", "Word", "Photoshop", "Chrome", "Firefox"],
+  "correct_answer": "WhatsApp",
+  "level": 1,
+  "topic": "Technology",
+  "points": 10
+},
+{
+  "id": "tech_2_1",
+  "text": "In networking, what does 'LAN' stand for?",
+  "options": ["Local Area Network", "Large Area Network", "Long Area Network", "Linked Area Network", "Logical Area Network", "Limited Area Network", "Layered Area Network"],
+  "correct_answer": "Local Area Network",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_2",
+  "text": "Which protocol is used for secure communication over a computer network?",
+  "options": ["HTTP", "FTP", "HTTPS", "SMTP", "POP3", "IMAP", "TCP"],
+  "correct_answer": "HTTPS",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_3",
+  "text": "What is the primary purpose of a DNS server?",
+  "options": ["Store websites", "Translate domain names to IP addresses", "Provide security", "Speed up internet", "Block ads", "Manage emails", "Host files"],
+  "correct_answer": "Translate domain names to IP addresses",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_4",
+  "text": "Which of these is a NoSQL database?",
+  "options": ["MySQL", "PostgreSQL", "MongoDB", "Oracle", "SQL Server", "SQLite", "MariaDB"],
+  "correct_answer": "MongoDB",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_5",
+  "text": "What does 'API' stand for?",
+  "options": ["Application Programming Interface", "Advanced Programming Interface", "Application Program Interaction", "Advanced Program Interaction", "Application Protocol Interface", "Advanced Protocol Interface", "Application Process Integration"],
+  "correct_answer": "Application Programming Interface",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_6",
+  "text": "Which programming paradigm is JavaScript primarily known for?",
+  "options": ["Procedural", "Object-Oriented", "Functional", "Logic", "Event-Driven", "Declarative", "Imperative"],
+  "correct_answer": "Event-Driven",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_7",
+  "text": "What is the main purpose of a CDN?",
+  "options": ["Store data", "Speed up website loading", "Provide security", "Manage databases", "Host emails", "Block malware", "Translate languages"],
+  "correct_answer": "Speed up website loading",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_8",
+  "text": "Which of these is a front-end JavaScript framework?",
+  "options": ["Django", "Flask", "React", "Node.js", "Spring", "Ruby on Rails", "Laravel"],
+  "correct_answer": "React",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_9",
+  "text": "What does 'SQL' stand for?",
+  "options": ["Structured Query Language", "Simple Query Language", "Structured Question Language", "Simple Question Language", "Standard Query Language", "Standard Question Language", "System Query Language"],
+  "correct_answer": "Structured Query Language",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_10",
+  "text": "Which protocol is used for sending emails?",
+  "options": ["HTTP", "FTP", "HTTPS", "SMTP", "POP3", "IMAP", "TCP"],
+  "correct_answer": "SMTP",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_11",
+  "text": "What is the purpose of a load balancer?",
+  "options": ["Store data", "Distribute network traffic", "Provide security", "Translate languages", "Manage databases", "Block ads", "Speed up internet"],
+  "correct_answer": "Distribute network traffic",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_12",
+  "text": "Which of these is a version control platform?",
+  "options": ["GitHub", "Java", "Python", "Docker", "Kubernetes", "Jenkins", "Ansible"],
+  "correct_answer": "GitHub",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_13",
+  "text": "What does 'IoT' stand for?",
+  "options": ["Internet of Things", "Internet of Technology", "Integration of Things", "Integration of Technology", "Intelligence of Things", "Intelligence of Technology", "Interaction of Things"],
+  "correct_answer": "Internet of Things",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_14",
+  "text": "Which of these is a containerization platform?",
+  "options": ["Docker", "Kubernetes", "Jenkins", "Ansible", "Git", "GitHub", "SVN"],
+  "correct_answer": "Docker",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_15",
+  "text": "What is the primary function of a router?",
+  "options": ["Connect networks", "Connect devices", "Store data", "Provide security", "Speed up internet", "Block ads", "Translate languages"],
+  "correct_answer": "Connect networks",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_16",
+  "text": "Which of these is a back-end programming language?",
+  "options": ["HTML", "CSS", "JavaScript", "Python", "React", "Angular", "Vue"],
+  "correct_answer": "Python",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_17",
+  "text": "What does 'CSS' stand for?",
+  "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets", "Cascading System Sheets", "Computer System Sheets", "Creative System Sheets", "Cascading Style System"],
+  "correct_answer": "Cascading Style Sheets",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_18",
+  "text": "Which of these is a cloud computing service model?",
+  "options": ["SaaS", "HTML", "CSS", "JavaScript", "Python", "Java", "C++"],
+  "correct_answer": "SaaS",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_19",
+  "text": "What is the purpose of a reverse proxy?",
+  "options": ["Store data", "Provide security", "Speed up website loading", "Manage emails", "Block malware", "Translate languages", "Distribute network traffic"],
+  "correct_answer": "Provide security",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_20",
+  "text": "Which of these is a machine learning framework?",
+  "options": ["TensorFlow", "Django", "Flask", "React", "Node.js", "Spring", "Ruby on Rails"],
+  "correct_answer": "TensorFlow",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_21",
+  "text": "What does 'RAM' stand for?",
+  "options": ["Random Access Memory", "Read Access Memory", "Random Available Memory", "Read Available Memory", "Random Allocation Memory", "Read Allocation Memory", "Random Access Module"],
+  "correct_answer": "Random Access Memory",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_22",
+  "text": "Which of these is a DevOps tool?",
+  "options": ["Jenkins", "Java", "Python", "HTML", "CSS", "JavaScript", "React"],
+  "correct_answer": "Jenkins",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_23",
+  "text": "What is the primary purpose of a cache?",
+  "options": ["Store data temporarily", "Store data permanently", "Provide security", "Speed up internet", "Block ads", "Translate languages", "Manage emails"],
+  "correct_answer": "Store data temporarily",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_24",
+  "text": "Which of these is a relational database?",
+  "options": ["MongoDB", "Redis", "Cassandra", "PostgreSQL", "Elasticsearch", "Neo4j", "Couchbase"],
+  "correct_answer": "PostgreSQL",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_25",
+  "text": "What does 'HTTP' stand for?",
+  "options": ["Hypertext Transfer Protocol", "Hyper Transfer Text Protocol", "Hypertext Transport Protocol", "Hyper Transport Text Protocol", "High Transfer Text Protocol", "High Transport Text Protocol", "Hypertext Transfer Process"],
+  "correct_answer": "Hypertext Transfer Protocol",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_26",
+  "text": "Which of these is a continuous integration tool?",
+  "options": ["Jenkins", "Docker", "Kubernetes", "Ansible", "Git", "GitHub", "SVN"],
+  "correct_answer": "Jenkins",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_27",
+  "text": "What is the purpose of a VPN?",
+  "options": ["Store data", "Provide secure remote access", "Speed up internet", "Block ads", "Translate languages", "Manage emails", "Distribute network traffic"],
+  "correct_answer": "Provide secure remote access",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_28",
+  "text": "Which of these is a scripting language?",
+  "options": ["Java", "C++", "Python", "HTML", "CSS", "JavaScript", "SQL"],
+  "correct_answer": "JavaScript",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_29",
+  "text": "What does 'OS' stand for?",
+  "options": ["Operating System", "Open System", "Operating Service", "Open Service", "Operation System", "Operation Service", "Organized System"],
+  "correct_answer": "Operating System",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+},
+{
+  "id": "tech_2_30",
+  "text": "Which of these is a web server?",
+  "options": ["Apache", "MySQL", "MongoDB", "Redis", "PostgreSQL", "SQLite", "Oracle"],
+  "correct_answer": "Apache",
+  "level": 2,
+  "topic": "Technology",
+  "points": 20
+}, 
+{
+  "id": "tech_3_1",
+  "text": "Which protocol is used for secure remote login and command execution?",
+  "options": ["FTP", "HTTP", "SSH", "Telnet", "SMTP", "DNS", "SNMP"],
+  "correct_answer": "SSH",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_2",
+  "text": "What is the primary purpose of a content delivery network (CDN)?",
+  "options": ["Data storage", "Network security", "Load balancing", "Geographically distributed content caching", "Email hosting", "Database management", "Video encoding"],
+  "correct_answer": "Geographically distributed content caching",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_3",
+  "text": "Which type of database is optimized for handling unstructured data?",
+  "options": ["Relational database", "NoSQL database", "Graph database", "Object-oriented database", "Hierarchical database", "Network database", "Time-series database"],
+  "correct_answer": "NoSQL database",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_4",
+  "text": "What does API stand for in software development?",
+  "options": ["Application Programming Interface", "Advanced Programming Interface", "Automated Program Interaction", "Application Process Integration", "Advanced Protocol Interface", "Automated Protocol Integration", "Application Performance Indicator"],
+  "correct_answer": "Application Programming Interface",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_5",
+  "text": "Which cloud service model provides virtualized computing resources over the internet?",
+  "options": ["SaaS", "PaaS", "IaaS", "FaaS", "DaaS", "CaaS", "DBaaS"],
+  "correct_answer": "IaaS",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_6",
+  "text": "What is the main purpose of Docker in software development?",
+  "options": ["Version control", "Containerization", "Continuous integration", "Code testing", "Database management", "Network security", "Load balancing"],
+  "correct_answer": "Containerization",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_7",
+  "text": "Which programming language is primarily used for developing Android applications?",
+  "options": ["Swift", "Kotlin", "JavaScript", "Python", "C#", "Ruby", "PHP"],
+  "correct_answer": "Kotlin",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_8",
+  "text": "What is the purpose of a reverse proxy server?",
+  "options": ["Load balancing", "SSL termination", "Web acceleration", "All of the above", "None of the above", "Only load balancing", "Only SSL termination"],
+  "correct_answer": "All of the above",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_9",
+  "text": "Which protocol is used for sending email between servers?",
+  "options": ["POP3", "IMAP", "SMTP", "HTTP", "FTP", "SSH", "DNS"],
+  "correct_answer": "SMTP",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_10",
+  "text": "What is the main advantage of using microservices architecture?",
+  "options": ["Simpler deployment", "Improved scalability", "Easier debugging", "Reduced development time", "Lower cost", "Better performance", "Simpler codebase"],
+  "correct_answer": "Improved scalability",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_11",
+  "text": "Which type of testing verifies that individual units of code work correctly?",
+  "options": ["Integration testing", "Unit testing", "System testing", "Acceptance testing", "Regression testing", "Performance testing", "Security testing"],
+  "correct_answer": "Unit testing",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_12",
+  "text": "What is the purpose of a load balancer in web infrastructure?",
+  "options": ["Distribute traffic across multiple servers", "Block malicious requests", "Cache content", "Compress data", "Encrypt traffic", "Monitor performance", "Store sessions"],
+  "correct_answer": "Distribute traffic across multiple servers",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_13",
+  "text": "Which database model is best suited for representing social networks?",
+  "options": ["Relational", "Document", "Key-value", "Graph", "Column-family", "Time-series", "Object-oriented"],
+  "correct_answer": "Graph",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_14",
+  "text": "What is the primary function of a DNS server?",
+  "options": ["Store websites", "Translate domain names to IP addresses", "Provide security", "Speed up internet", "Block ads", "Manage emails", "Host files"],
+  "correct_answer": "Translate domain names to IP addresses",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_15",
+  "text": "Which version control system uses a distributed model?",
+  "options": ["SVN", "Git", "CVS", "Mercurial", "Perforce", "Team Foundation Server", "ClearCase"],
+  "correct_answer": "Git",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_16",
+  "text": "What is the purpose of an ORM (Object-Relational Mapping) tool?",
+  "options": ["Map database tables to objects in code", "Optimize database queries", "Manage database connections", "Create database schemas", "Backup databases", "Monitor database performance", "Secure database access"],
+  "correct_answer": "Map database tables to objects in code",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_17",
+  "text": "Which protocol is used for secure web browsing?",
+  "options": ["HTTP", "FTP", "HTTPS", "SMTP", "POP3", "IMAP", "DNS"],
+  "correct_answer": "HTTPS",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_18",
+  "text": "What is the main advantage of serverless architecture?",
+  "options": ["No server management", "Better performance", "Lower cost", "Simpler deployment", "Easier scaling", "Improved security", "Faster development"],
+  "correct_answer": "No server management",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_19",
+  "text": "Which type of storage is typically used for big data analytics?",
+  "options": ["Block storage", "File storage", "Object storage", "Database storage", "Cache storage", "Archive storage", "Memory storage"],
+  "correct_answer": "Object storage",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_3_20",
+  "text": "What is the purpose of a web application firewall (WAF)?",
+  "options": ["Protect web applications from attacks", "Speed up website loading", "Cache content", "Balance load", "Monitor traffic", "Compress data", "Encrypt communications"],
+  "correct_answer": "Protect web applications from attacks",
+  "level": 3,
+  "topic": "Technology",
+  "points": 30
+},
+{
+  "id": "tech_4_1",
+  "text": "In a microservices architecture, what pattern is used to maintain data consistency across services?",
+  "options": ["API Gateway", "Circuit Breaker", "Saga Pattern", "Service Discovery", "Event Sourcing", "CQRS", "Sidecar Pattern"],
+  "correct_answer": "Saga Pattern",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_2",
+  "text": "Which consensus algorithm is used by Ethereum after the Merge?",
+  "options": ["Proof of Work", "Proof of Stake", "Proof of Authority", "Proof of History", "Proof of Capacity", "Proof of Burn", "Proof of Elapsed Time"],
+  "correct_answer": "Proof of Stake",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_3",
+  "text": "What is the primary purpose of a service mesh in cloud-native applications?",
+  "options": ["Service discovery", "Traffic management", "Security", "Observability", "All of the above", "None of the above", "Only service discovery"],
+  "correct_answer": "All of the above",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_4",
+  "text": "Which database isolation level prevents dirty reads, non-repeatable reads, and phantom reads?",
+  "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable", "Snapshot", "Cursor Stability", "Read Stability"],
+  "correct_answer": "Serializable",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_5",
+  "text": "What is the main advantage of using GraphQL over REST API?",
+  "options": ["Faster performance", "Smaller payload size", "Client-specified responses", "Better caching", "Easier implementation", "More secure", "Standardized error handling"],
+  "correct_answer": "Client-specified responses",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_6",
+  "text": "Which cloud deployment model provides dedicated infrastructure for a single organization?",
+  "options": ["Public cloud", "Private cloud", "Hybrid cloud", "Community cloud", "Multi-cloud", "Distributed cloud", "Edge cloud"],
+  "correct_answer": "Private cloud",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_7",
+  "text": "What is the purpose of a circuit breaker pattern in microservices?",
+  "options": ["Prevent cascading failures", "Load balancing", "Service discovery", "API gateway", "Data consistency", "Message queuing", "Event streaming"],
+  "correct_answer": "Prevent cascading failures",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_8",
+  "text": "Which protocol is used for real-time communication in web applications?",
+  "options": ["HTTP", "WebSocket", "FTP", "SMTP", "MQTT", "AMQP", "gRPC"],
+  "correct_answer": "WebSocket",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_9",
+  "text": "What is the main advantage of using infrastructure as code (IaC)?",
+  "options": ["Consistent environment provisioning", "Faster deployment", "Lower cost", "Better security", "Easier debugging", "Improved performance", "Simpler monitoring"],
+  "correct_answer": "Consistent environment provisioning",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_10",
+  "text": "Which type of database is optimized for time-series data?",
+  "options": ["Relational database", "Document database", "Graph database", "Time-series database", "Key-value database", "Column-family database", "Object database"],
+  "correct_answer": "Time-series database",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_11",
+  "text": "What is the purpose of a content security policy (CSP) in web applications?",
+  "options": ["Prevent XSS attacks", "Improve performance", "Enable caching", "Compress content", "Balance load", "Monitor traffic", "Manage sessions"],
+  "correct_answer": "Prevent XSS attacks",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_12",
+  "text": "Which architecture pattern separates read and write operations?",
+  "options": ["Microservices", "CQRS", "Event Sourcing", "Serverless", "Service Mesh", "API Gateway", "Circuit Breaker"],
+  "correct_answer": "CQRS",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_13",
+  "text": "What is the main advantage of using containers over virtual machines?",
+  "options": ["Better performance", "Smaller footprint", "Easier management", "Lower cost", "Improved security", "Faster deployment", "Better isolation"],
+  "correct_answer": "Smaller footprint",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_14",
+  "text": "Which protocol is used for IoT device communication?",
+  "options": ["HTTP", "MQTT", "FTP", "SMTP", "WebSocket", "gRPC", "AMQP"],
+  "correct_answer": "MQTT",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_15",
+  "text": "What is the purpose of a reverse proxy in web architecture?",
+  "options": ["Load balancing", "SSL termination", "Caching", "Security", "All of the above", "None of the above", "Only load balancing"],
+  "correct_answer": "All of the above",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_16",
+  "text": "Which database model is best for storing JSON documents?",
+  "options": ["Relational", "Document", "Graph", "Key-value", "Column-family", "Time-series", "Object-oriented"],
+  "correct_answer": "Document",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_17",
+  "text": "What is the main advantage of using a message queue in distributed systems?",
+  "options": ["Decoupling services", "Improving performance", "Reducing cost", "Enhancing security", "Simplifying deployment", "Easier debugging", "Better monitoring"],
+  "correct_answer": "Decoupling services",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_18",
+  "text": "Which cloud service model provides platform for developing and running applications?",
+  "options": ["SaaS", "PaaS", "IaaS", "FaaS", "DaaS", "CaaS", "DBaaS"],
+  "correct_answer": "PaaS",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_19",
+  "text": "What is the purpose of a service registry in microservices architecture?",
+  "options": ["Service discovery", "Load balancing", "API gateway", "Circuit breaker", "Message queue", "Event bus", "Database proxy"],
+  "correct_answer": "Service discovery",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+},
+{
+  "id": "tech_4_20",
+  "text": "Which protocol is used for secure file transfer?",
+  "options": ["HTTP", "HTTPS", "FTP", "SFTP", "SMTP", "SSH", "DNS"],
+  "correct_answer": "SFTP",
+  "level": 4,
+  "topic": "Technology",
+  "points": 50
+}, 
+{
+  "id": "hist_1_1",
+  "text": "In which year did World War II end?",
+  "options": ["1943", "1944", "1945", "1946", "1947", "1948", "1949"],
+  "correct_answer": "1945",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_2",
+  "text": "Who was the first President of the United States?",
+  "options": ["Thomas Jefferson", "John Adams", "George Washington", "Abraham Lincoln", "Benjamin Franklin", "James Madison", "Andrew Jackson"],
+  "correct_answer": "George Washington",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_3",
+  "text": "Which ancient civilization built the Great Pyramids of Giza?",
+  "options": ["Romans", "Greeks", "Egyptians", "Mayans", "Persians", "Chinese", "Indus Valley"],
+  "correct_answer": "Egyptians",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_4",
+  "text": "What was the name of the ship that brought the Pilgrims to America in 1620?",
+  "options": ["Santa Maria", "Mayflower", "Nina", "Pinta", "Titanic", "Victory", "Endeavour"],
+  "correct_answer": "Mayflower",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_5",
+  "text": "Who wrote the 'I Have a Dream' speech?",
+  "options": ["Malcolm X", "Martin Luther King Jr.", "Rosa Parks", "Frederick Douglass", "Booker T. Washington", "Harriet Tubman", "W.E.B. Du Bois"],
+  "correct_answer": "Martin Luther King Jr.",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_6",
+  "text": "Which empire was ruled by Julius Caesar?",
+  "options": ["Greek Empire", "Roman Empire", "Ottoman Empire", "British Empire", "Mongol Empire", "Persian Empire", "Byzantine Empire"],
+  "correct_answer": "Roman Empire",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_7",
+  "text": "What was the name of the period of cultural and artistic rebirth in Europe?",
+  "options": ["Enlightenment", "Reformation", "Renaissance", "Industrial Revolution", "Middle Ages", "Baroque Period", "Romantic Era"],
+  "correct_answer": "Renaissance",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_8",
+  "text": "Who discovered America in 1492?",
+  "options": ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "Marco Polo", "James Cook", "Amerigo Vespucci", "Leif Erikson"],
+  "correct_answer": "Christopher Columbus",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_9",
+  "text": "Which war was fought between the North and South regions of the United States?",
+  "options": ["Revolutionary War", "War of 1812", "Civil War", "Spanish-American War", "Mexican-American War", "World War I", "World War II"],
+  "correct_answer": "Civil War",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_10",
+  "text": "What was the name of the first successful English colony in America?",
+  "options": ["Plymouth", "Jamestown", "Roanoke", "Massachusetts Bay", "New Amsterdam", "Providence", "Charleston"],
+  "correct_answer": "Jamestown",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_11",
+  "text": "Who was the Egyptian queen known for her relationships with Roman leaders?",
+  "options": ["Nefertiti", "Hatshepsut", "Cleopatra", "Sobekneferu", "Twosret", "Nitocris", "Merneith"],
+  "correct_answer": "Cleopatra",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_12",
+  "text": "Which document declared American independence from Britain?",
+  "options": ["Constitution", "Magna Carta", "Declaration of Independence", "Bill of Rights", "Articles of Confederation", "Emancipation Proclamation", "Gettysburg Address"],
+  "correct_answer": "Declaration of Independence",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_13",
+  "text": "What was the name of the ancient trade route connecting China to the Mediterranean?",
+  "options": ["Spice Route", "Silk Road", "Amber Road", "Incense Route", "Tea Road", "Trans-Saharan Route", "Royal Road"],
+  "correct_answer": "Silk Road",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_14",
+  "text": "Who was the first woman to fly solo across the Atlantic Ocean?",
+  "options": ["Bessie Coleman", "Amelia Earhart", "Harriet Quimby", "Jacqueline Cochran", "Valentina Tereshkova", "Sally Ride", "Eileen Collins"],
+  "correct_answer": "Amelia Earhart",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_15",
+  "text": "Which ancient wonder was located in Babylon?",
+  "options": ["Great Pyramid", "Hanging Gardens", "Colossus of Rhodes", "Lighthouse of Alexandria", "Temple of Artemis", "Statue of Zeus", "Mausoleum at Halicarnassus"],
+  "correct_answer": "Hanging Gardens",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_16",
+  "text": "What was the name of the pandemic that killed millions in the 14th century?",
+  "options": ["Spanish Flu", "Black Death", "Cholera Pandemic", "Smallpox", "Yellow Fever", "Typhus", "HIV/AIDS"],
+  "correct_answer": "Black Death",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_17",
+  "text": "Who was the leader of the Soviet Union during World War II?",
+  "options": ["Vladimir Lenin", "Joseph Stalin", "Nikita Khrushchev", "Leon Trotsky", "Mikhail Gorbachev", "Boris Yeltsin", "Vladimir Putin"],
+  "correct_answer": "Joseph Stalin",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_18",
+  "text": "Which civilization built Machu Picchu?",
+  "options": ["Aztec", "Maya", "Inca", "Olmec", "Toltec", "Zapotec", "Mixtec"],
+  "correct_answer": "Inca",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_19",
+  "text": "What was the name of the first artificial satellite launched into space?",
+  "options": ["Explorer 1", "Sputnik 1", "Vanguard 1", "Telstar 1", "Luna 1", "Skylab", "Hubble"],
+  "correct_answer": "Sputnik 1",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_20",
+  "text": "Who painted the Mona Lisa?",
+  "options": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Donatello", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+  "correct_answer": "Leonardo da Vinci",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_21",
+  "text": "Which war was known as the 'Great War' before World War II?",
+  "options": ["World War I", "Vietnam War", "Korean War", "Napoleonic Wars", "Crimean War", "Spanish-American War", "Civil War"],
+  "correct_answer": "World War I",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_22",
+  "text": "What was the name of the ship that sank after hitting an iceberg in 1912?",
+  "options": ["Lusitania", "Titanic", "Britannic", "Andrea Doria", "Queen Mary", "Empress of Ireland", "Arizona"],
+  "correct_answer": "Titanic",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_23",
+  "text": "Who was the first woman to win a Nobel Prize?",
+  "options": ["Marie Curie", "Rosalind Franklin", "Dorothy Hodgkin", "Gerty Cori", "Barbara McClintock", "Rita Levi-Montalcini", "Françoise Barré-Sinoussi"],
+  "correct_answer": "Marie Curie",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_24",
+  "text": "Which ancient Greek philosopher taught Alexander the Great?",
+  "options": ["Socrates", "Plato", "Aristotle", "Pythagoras", "Archimedes", "Herodotus", "Homer"],
+  "correct_answer": "Aristotle",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_25",
+  "text": "What was the name of the wall that divided East and West Berlin?",
+  "options": ["Iron Curtain", "Berlin Wall", "Great Wall", "Maginot Line", "Siegfried Line", "Hadrian's Wall", "Western Wall"],
+  "correct_answer": "Berlin Wall",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_26",
+  "text": "Who was the first emperor of Rome?",
+  "options": ["Julius Caesar", "Augustus", "Nero", "Caligula", "Constantine", "Trajan", "Hadrian"],
+  "correct_answer": "Augustus",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_27",
+  "text": "Which country was known as Persia until 1935?",
+  "options": ["Iraq", "Iran", "Turkey", "Afghanistan", "Pakistan", "Syria", "Jordan"],
+  "correct_answer": "Iran",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_28",
+  "text": "What was the name of the first successful vaccine developed by Edward Jenner?",
+  "options": ["Polio", "Smallpox", "Rabies", "Tuberculosis", "Diphtheria", "Tetanus", "Measles"],
+  "correct_answer": "Smallpox",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_29",
+  "text": "Which revolution began in 1789 with the storming of the Bastille?",
+  "options": ["American Revolution", "French Revolution", "Russian Revolution", "Industrial Revolution", "Glorious Revolution", "Chinese Revolution", "Cuban Revolution"],
+  "correct_answer": "French Revolution",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+},
+{
+  "id": "hist_1_30",
+  "text": "Who was the leader of India's non-violent independence movement?",
+  "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Subhas Chandra Bose", "Muhammad Ali Jinnah", "Indira Gandhi", "Rajiv Gandhi", "Sardar Patel"],
+  "correct_answer": "Mahatma Gandhi",
+  "level": 1,
+  "topic": "History",
+  "points": 10
+}, 
+{
+  "id": "hist_2_1",
+  "text": "Which Chinese philosopher's teachings formed the foundation of Confucianism?",
+  "options": ["Laozi", "Confucius", "Mencius", "Sun Tzu", "Mozi", "Zhuangzi", "Han Fei"],
+  "correct_answer": "Confucius",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_2",
+  "text": "The Hundred Years' War was primarily fought between which two nations?",
+  "options": ["England and France", "France and Spain", "England and Spain", "France and Germany", "England and Germany", "Spain and Portugal", "France and Italy"],
+  "correct_answer": "England and France",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_3",
+  "text": "Which famous explorer completed the first circumnavigation of the Earth?",
+  "options": ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama", "James Cook", "Marco Polo", "Henry Hudson", "Amerigo Vespucci"],
+  "correct_answer": "Ferdinand Magellan",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_4",
+  "text": "The Magna Carta, signed in 1215, limited the power of which English king?",
+  "options": ["William the Conqueror", "Richard the Lionheart", "John", "Henry II", "Edward I", "Henry VIII", "James I"],
+  "correct_answer": "John",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_5",
+  "text": "Which ancient civilization developed the concept of zero in mathematics?",
+  "options": ["Egyptians", "Greeks", "Romans", "Mayans", "Indus Valley", "Chinese", "Babylonians"],
+  "correct_answer": "Mayans",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_6",
+  "text": "The Treaty of Versailles officially ended which major conflict?",
+  "options": ["World War I", "World War II", "Napoleonic Wars", "Thirty Years' War", "Crimean War", "Franco-Prussian War", "American Civil War"],
+  "correct_answer": "World War I",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_7",
+  "text": "Who was the founder of the Mongol Empire?",
+  "options": ["Kublai Khan", "Genghis Khan", "Attila the Hun", "Tamerlane", "Ogedei Khan", "Batu Khan", "Hulagu Khan"],
+  "correct_answer": "Genghis Khan",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_8",
+  "text": "The Renaissance began in which Italian city?",
+  "options": ["Rome", "Venice", "Florence", "Milan", "Naples", "Genoa", "Pisa"],
+  "correct_answer": "Florence",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_9",
+  "text": "Which ancient wonder was a giant statue of the sun god Helios?",
+  "options": ["Great Pyramid", "Hanging Gardens", "Colossus of Rhodes", "Lighthouse of Alexandria", "Temple of Artemis", "Statue of Zeus", "Mausoleum at Halicarnassus"],
+  "correct_answer": "Colossus of Rhodes",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_10",
+  "text": "The Boxer Rebellion took place in which country?",
+  "options": ["Japan", "China", "India", "Korea", "Vietnam", "Thailand", "Philippines"],
+  "correct_answer": "China",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_11",
+  "text": "Who was the first Roman emperor to convert to Christianity?",
+  "options": ["Augustus", "Nero", "Constantine", "Julius Caesar", "Trajan", "Hadrian", "Diocletian"],
+  "correct_answer": "Constantine",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_12",
+  "text": "The Battle of Hastings in 1066 resulted in the Norman conquest of which country?",
+  "options": ["France", "England", "Ireland", "Scotland", "Wales", "Spain", "Italy"],
+  "correct_answer": "England",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_13",
+  "text": "Which African empire was known for its wealth in gold and salt trade?",
+  "options": ["Ghana Empire", "Mali Empire", "Songhai Empire", "Zulu Empire", "Ethiopian Empire", "Egyptian Empire", "Carthaginian Empire"],
+  "correct_answer": "Mali Empire",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_14",
+  "text": "The Spanish Armada was defeated by which country in 1588?",
+  "options": ["France", "England", "Portugal", "Netherlands", "Italy", "Germany", "Russia"],
+  "correct_answer": "England",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_15",
+  "text": "Who was the last active ruler of Ptolemaic Egypt?",
+  "options": ["Nefertiti", "Hatshepsut", "Cleopatra", "Sobekneferu", "Twosret", "Nitocris", "Merneith"],
+  "correct_answer": "Cleopatra",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_16",
+  "text": "The Industrial Revolution began in which country?",
+  "options": ["United States", "France", "Germany", "England", "Italy", "Russia", "Japan"],
+  "correct_answer": "England",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_17",
+  "text": "Which ancient civilization built the city of Tenochtitlan?",
+  "options": ["Inca", "Maya", "Aztec", "Olmec", "Toltec", "Zapotec", "Mixtec"],
+  "correct_answer": "Aztec",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_18",
+  "text": "The French Revolution began in which year?",
+  "options": ["1776", "1789", "1799", "1812", "1848", "1871", "1917"],
+  "correct_answer": "1789",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_19",
+  "text": "Who was the first female prime minister of the United Kingdom?",
+  "options": ["Queen Elizabeth I", "Queen Victoria", "Margaret Thatcher", "Theresa May", "Indira Gandhi", "Golda Meir", "Angela Merkel"],
+  "correct_answer": "Margaret Thatcher",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_20",
+  "text": "The Byzantine Empire was the continuation of which ancient empire?",
+  "options": ["Roman Empire", "Greek Empire", "Persian Empire", "Egyptian Empire", "Ottoman Empire", "Macedonian Empire", "Carthaginian Empire"],
+  "correct_answer": "Roman Empire",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_21",
+  "text": "Which famous battle in 480 BC featured 300 Spartans against the Persian army?",
+  "options": ["Battle of Marathon", "Battle of Thermopylae", "Battle of Salamis", "Battle of Plataea", "Battle of Issus", "Battle of Gaugamela", "Battle of Hydaspes"],
+  "correct_answer": "Battle of Thermopylae",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_22",
+  "text": "The Scramble for Africa occurred during which century?",
+  "options": ["16th century", "17th century", "18th century", "19th century", "20th century", "15th century", "14th century"],
+  "correct_answer": "19th century",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_23",
+  "text": "Who was the first emperor of China?",
+  "options": ["Emperor Wu", "Emperor Taizong", "Qin Shi Huang", "Emperor Kangxi", "Emperor Qianlong", "Emperor Hongwu", "Emperor Yongle"],
+  "correct_answer": "Qin Shi Huang",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_24",
+  "text": "The Protestant Reformation was started by which religious figure?",
+  "options": ["John Calvin", "Martin Luther", "Henry VIII", "John Wesley", "Ulrich Zwingli", "John Knox", "Ignatius of Loyola"],
+  "correct_answer": "Martin Luther",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_25",
+  "text": "Which ancient city was destroyed by the eruption of Mount Vesuvius in 79 AD?",
+  "options": ["Athens", "Rome", "Pompeii", "Carthage", "Alexandria", "Sparta", "Troy"],
+  "correct_answer": "Pompeii",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_26",
+  "text": "The Silk Road connected China with which region?",
+  "options": ["Middle East", "Mediterranean", "India", "All of the above", "None of the above", "Only Middle East", "Only Mediterranean"],
+  "correct_answer": "All of the above",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_27",
+  "text": "Who was the first European to reach India by sea?",
+  "options": ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama", "Marco Polo", "James Cook", "Henry Hudson", "Amerigo Vespucci"],
+  "correct_answer": "Vasco da Gama",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_28",
+  "text": "The Cold War was primarily between which two superpowers?",
+  "options": ["United States and China", "United States and Soviet Union", "Soviet Union and China", "United States and Germany", "Soviet Union and Germany", "United States and Japan", "Soviet Union and Japan"],
+  "correct_answer": "United States and Soviet Union",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_29",
+  "text": "Which ancient civilization developed the first system of writing called cuneiform?",
+  "options": ["Egyptians", "Sumerians", "Greeks", "Romans", "Chinese", "Indus Valley", "Phoenicians"],
+  "correct_answer": "Sumerians",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+},
+{
+  "id": "hist_2_30",
+  "text": "The Louisiana Purchase doubled the size of which country?",
+  "options": ["France", "Spain", "United States", "England", "Mexico", "Canada", "Russia"],
+  "correct_answer": "United States",
+  "level": 2,
+  "topic": "History",
+  "points": 20
+}, 
+{
+  "id": "hist_3_1",
+  "text": "The Treaty of Tordesillas in 1494 divided the New World between which two colonial powers?",
+  "options": ["Spain and Portugal", "England and France", "France and Spain", "Portugal and England", "Spain and Netherlands", "England and Netherlands", "France and Portugal"],
+  "correct_answer": "Spain and Portugal",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_2",
+  "text": "Which Chinese admiral commanded seven epic voyages throughout the Indian Ocean during the Ming Dynasty?",
+  "options": ["Zheng He", "Admiral Yi Sun-sin", "Kublai Khan", "Hongwu Emperor", "Qianlong Emperor", "Zhu Di", "Li Zicheng"],
+  "correct_answer": "Zheng He",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_3",
+  "text": "The 'Glorious Revolution' of 1688 resulted in the ascension of which joint monarchs to the English throne?",
+  "options": ["William and Mary", "Henry and Elizabeth", "James and Anne", "Charles and Catherine", "George and Charlotte", "Edward and Victoria", "Richard and Margaret"],
+  "correct_answer": "William and Mary",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_4",
+  "text": "Which ancient Mesoamerican civilization developed the Long Count calendar and concept of zero?",
+  "options": ["Aztec", "Inca", "Maya", "Olmec", "Toltec", "Zapotec", "Mixtec"],
+  "correct_answer": "Maya",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_5",
+  "text": "The 'Thirty Years' War' (1618-1648) was primarily fought in which region?",
+  "options": ["Scandinavia", "British Isles", "Holy Roman Empire", "Iberian Peninsula", "Balkan Peninsula", "Italian Peninsula", "Eastern Europe"],
+  "correct_answer": "Holy Roman Empire",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_6",
+  "text": "Which African kingdom resisted European colonization until finally being conquered by Italy in 1936?",
+  "options": ["Ethiopia", "Zulu Kingdom", "Ashanti Empire", "Kingdom of Benin", "Songhai Empire", "Mali Empire", "Ghana Empire"],
+  "correct_answer": "Ethiopia",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_7",
+  "text": "The 'Schlieffen Plan' was Germany's strategy at the outbreak of which war?",
+  "options": ["World War I", "World War II", "Franco-Prussian War", "Napoleonic Wars", "Seven Years' War", "Crimean War", "Austro-Prussian War"],
+  "correct_answer": "World War I",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_8",
+  "text": "Which ancient Persian king established the first great Persian Empire?",
+  "options": ["Darius the Great", "Xerxes I", "Cyrus the Great", "Cambyses II", "Artaxerxes I", "Xerxes II", "Darius III"],
+  "correct_answer": "Cyrus the Great",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_9",
+  "text": "The 'Mandate of Heaven' was a political philosophy used to justify rule in which ancient civilization?",
+  "options": ["Japan", "Korea", "China", "Vietnam", "India", "Persia", "Mesopotamia"],
+  "correct_answer": "China",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_10",
+  "text": "Which European power established the first permanent settlement in what is now New York City?",
+  "options": ["England", "France", "Spain", "Portugal", "Netherlands", "Sweden", "Denmark"],
+  "correct_answer": "Netherlands",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_11",
+  "text": "The 'Reconquista' refers to the centuries-long struggle to drive Muslim rulers from which peninsula?",
+  "options": ["Italian Peninsula", "Balkan Peninsula", "Iberian Peninsula", "Scandinavian Peninsula", "Jutland Peninsula", "Anatolian Peninsula", "Arabian Peninsula"],
+  "correct_answer": "Iberian Peninsula",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_12",
+  "text": "Which ancient Greek city-state was known for its unique dual monarchy and military society?",
+  "options": ["Athens", "Sparta", "Thebes", "Corinth", "Argos", "Syracuse", "Rhodes"],
+  "correct_answer": "Sparta",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_13",
+  "text": "The 'Meiji Restoration' in 1868 marked the modernization and westernization of which nation?",
+  "options": ["China", "Japan", "Korea", "Thailand", "Vietnam", "India", "Philippines"],
+  "correct_answer": "Japan",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_14",
+  "text": "Which medieval English document, signed in 1215, is considered a cornerstone of constitutional law?",
+  "options": ["Domesday Book", "Magna Carta", "Bill of Rights", "Petition of Right", "Habeas Corpus Act", "Act of Supremacy", "Statute of Westminster"],
+  "correct_answer": "Magna Carta",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_15",
+  "text": "The 'Hanseatic League' was a powerful commercial and defensive confederation of merchant guilds in which region?",
+  "options": ["Mediterranean", "Baltic Sea", "North Sea", "Black Sea", "Adriatic Sea", "Aegean Sea", "English Channel"],
+  "correct_answer": "Baltic Sea",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_16",
+  "text": "Which African empire reached its peak under Mansa Musa, known for his legendary pilgrimage to Mecca?",
+  "options": ["Ghana Empire", "Mali Empire", "Songhai Empire", "Zulu Empire", "Ethiopian Empire", "Egyptian Empire", "Carthaginian Empire"],
+  "correct_answer": "Mali Empire",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_17",
+  "text": "The 'Peace of Westphalia' in 1648 ended which major European conflict?",
+  "options": ["Hundred Years' War", "Thirty Years' War", "War of Spanish Succession", "Seven Years' War", "Napoleonic Wars", "Crimean War", "Franco-Prussian War"],
+  "correct_answer": "Thirty Years' War",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_18",
+  "text": "Which ancient civilization built the elaborate underground irrigation systems known as qanats?",
+  "options": ["Egyptians", "Persians", "Romans", "Greeks", "Chinese", "Indus Valley", "Mayans"],
+  "correct_answer": "Persians",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_19",
+  "text": "The 'Boer Wars' were fought between British forces and settlers of which descent in South Africa?",
+  "options": ["French", "Dutch", "German", "Portuguese", "Spanish", "Italian", "Belgian"],
+  "correct_answer": "Dutch",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+},
+{
+  "id": "hist_3_20",
+  "text": "Which Chinese philosophy, emphasizing strict legal codes and harsh punishments, was implemented during the Qin Dynasty?",
+  "options": ["Confucianism", "Daoism", "Legalism", "Buddhism", "Mohism", "Neo-Confucianism", "Zen Buddhism"],
+  "correct_answer": "Legalism",
+  "level": 3,
+  "topic": "History",
+  "points": 30
+}, 
+{
+  "id": "hist_4_1",
+  "text": "The 'War of the Roses' (1455-1487) was a civil war for control of the English throne between which two rival houses?",
+  "options": ["Lancaster and York", "Tudor and Stuart", "Plantagenet and Tudor", "York and Tudor", "Lancaster and Tudor", "Plantagenet and Lancaster", "Stuart and Hanover"],
+  "correct_answer": "Lancaster and York",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_2",
+  "text": "Which Byzantine emperor oversaw the codification of Roman law into the Corpus Juris Civilis?",
+  "options": ["Justinian I", "Constantine the Great", "Theodosius I", "Heraclius", "Basil II", "Alexios I Komnenos", "Manuel I Komnenos"],
+  "correct_answer": "Justinian I",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_3",
+  "text": "The 'Diadochi' were the rival generals, families, and friends who fought for control over Alexander the Great's empire after his death. What does 'Diadochi' literally mean?",
+  "options": ["Successors", "Generals", "Kings", "Conquerors", "Heirs", "Warriors", "Usurpers"],
+  "correct_answer": "Successors",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_4",
+  "text": "The 'An Lushan Rebellion' (755-763 CE), which severely weakened China's Tang Dynasty, was instigated by a general of what ethnic origin?",
+  "options": ["Mongol", "Turkic", "Sogdian", "Tibetan", "Uyghur", "Khitan", "Jurchen"],
+  "correct_answer": "Sogdian",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_5",
+  "text": "The 'Defenestration of Prague' in 1618, which helped trigger the Thirty Years' War, involved throwing two Catholic officials out of a window. They survived by landing in what?",
+  "options": ["A moat", "A hay cart", "A dung heap", "A river", "A garden", "A crowd of people", "A pile of straw"],
+  "correct_answer": "A dung heap",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_6",
+  "text": "Which pre-Columbian Mesoamerican civilization is credited with developing the first true writing system in the Americas?",
+  "options": ["Olmec", "Zapotec", "Maya", "Toltec", "Aztec", "Mixtec", "Teotihuacano"],
+  "correct_answer": "Zapotec",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_7",
+  "text": "The 'Pax Mongolica' facilitated trade and cultural exchange across Eurasia. Which two oceans did the Mongol Empire connect at its greatest extent?",
+  "options": ["Atlantic and Pacific", "Pacific and Indian", "Indian and Atlantic", "Pacific and Arctic", "Arctic and Atlantic", "Mediterranean and Red Sea", "Black Sea and Caspian Sea"],
+  "correct_answer": "Pacific and Atlantic",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_8",
+  "text": "The 'Babington Plot' (1586) was a failed conspiracy to assassinate which English monarch and replace them with Mary, Queen of Scots?",
+  "options": ["Henry VIII", "Elizabeth I", "Mary I", "Edward VI", "James I", "Charles I", "Anne"],
+  "correct_answer": "Elizabeth I",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_9",
+  "text": "The 'St. Bartholomew's Day Massacre' (1572) was a targeted group of assassinations and wave of Catholic mob violence directed against which religious group in France?",
+  "options": ["Huguenots", "Jansenists", "Cathars", "Waldensians", "Anabaptists", "Lollards", "Calvinists"],
+  "correct_answer": "Huguenots",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_10",
+  "text": "The 'Mfecane' was a period of widespread chaos and warfare among indigenous ethnic communities in southern Africa during the early 19th century. It is primarily associated with the expansion of which nation?",
+  "options": ["Zulu", "Xhosa", "Sotho", "Ndebele", "Swazi", "Pedi", "Tswana"],
+  "correct_answer": "Zulu",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_11",
+  "text": "The 'Dual Revolution' is a term coined by historian Eric Hobsbawm to describe the simultaneous occurrence of which two revolutions in the late 18th and early 19th centuries?",
+  "options": ["French and American", "Industrial and French", "American and Industrial", "Scientific and Industrial", "Glorious and American", "Agricultural and French", "Russian and Chinese"],
+  "correct_answer": "Industrial and French",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_12",
+  "text": "The 'Canton System' (1757-1842) was a trade policy used by which Chinese dynasty to control and restrict European merchants to a single port city?",
+  "options": ["Ming", "Qing", "Yuan", "Song", "Tang", "Han", "Sui"],
+  "correct_answer": "Qing",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_13",
+  "text": "The 'Kingitanga' or Māori King Movement was established in New Zealand in the 1850s to unite tribes against the encroachment of British settlers. Who was its first monarch?",
+  "options": ["Te Rauparaha", "Te Kooti", "Pōtatau Te Wherowhero", "Hongi Hika", "Hone Heke", "Rewi Maniapoto", "Tāwhiao"],
+  "correct_answer": "Pōtatau Te Wherowhero",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_14",
+  "text": "The 'Nika Revolt' (532 CE) was a major uprising against Emperor Justinian I in the Hippodrome of which city?",
+  "options": ["Rome", "Constantinople", "Alexandria", "Antioch", "Ravenna", "Carthage", "Athens"],
+  "correct_answer": "Constantinople",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_15",
+  "text": "The 'Dauphin' was the title given to the heir apparent to the throne of which European kingdom?",
+  "options": ["England", "France", "Spain", "Holy Roman Empire", "Portugal", "Naples", "Scotland"],
+  "correct_answer": "France",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_16",
+  "text": "The 'Russo-Japanese War' (1904-1905) is historically significant as it marked the first time in the modern era that an Asian power defeated a European great power. The war was primarily fought over control of which two territories?",
+  "options": ["Korea and Manchuria", "Formosa and Sakhalin", "Liaodong Peninsula and Port Arthur", "Manchuria and Siberia", "Kuril Islands and Hokkaido", "Beijing and Seoul", "Vladivostok and Busan"],
+  "correct_answer": "Korea and Manchuria",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_17",
+  "text": "The 'Sack of Constantinople' in 1204 during the Fourth Crusade resulted in the partition of the Byzantine Empire and the establishment of a short-lived 'Latin Empire'. Who was the first Latin Emperor?",
+  "options": ["Baldwin I of Flanders", "Boniface I of Montferrat", "Enrico Dandolo", "Geoffrey de Villehardouin", "Louis I of Blois", "Philip of Swabia", "Innocent III"],
+  "correct_answer": "Baldwin I of Flanders",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_18",
+  "text": "The 'Doctrine of Lapse' was an annexation policy purportedly devised by which British colonial administrator in India?",
+  "options": ["Lord Dalhousie", "Lord Curzon", "Warren Hastings", "Lord Wellesley", "Lord Mountbatten", "Robert Clive", "Lord Ripon"],
+  "correct_answer": "Lord Dalhousie",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_19",
+  "text": "The 'Battle of Ain Jalut' (1260) is celebrated in history as the first major defeat of the Mongol army. Which Mamluk Sultanate general, who was originally a Kipchak Turkic slave, led the victorious forces?",
+  "options": ["Saladin", "Baibars", "Qutuz", "Al-Ashraf Khalil", "Al-Mansur Qalawun", "Al-Nasir Muhammad", "Al-Zahir Baybars"],
+  "correct_answer": "Baibars",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+},
+{
+  "id": "hist_4_20",
+  "text": "The 'Council of Trent' (1545-1563) was a major ecumenical council of the Catholic Church, defining its response to the Protestant Reformation. In which present-day country was it held?",
+  "options": ["France", "Germany", "Switzerland", "Italy", "Spain", "Austria", "Vatican City"],
+  "correct_answer": "Italy",
+  "level": 4,
+  "topic": "History",
+  "points": 50
+}
 ]

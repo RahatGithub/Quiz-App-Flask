@@ -38,5 +38,10 @@ def create_app():
     # Create database tables
     with app.app_context():
         db.create_all()
+    
+    @app.template_filter('non_negative')
+    def non_negative_filter(value):
+        """Return value if positive, otherwise return 0"""
+        return max(0, value)
         
     return app

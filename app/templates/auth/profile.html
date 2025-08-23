@@ -1,0 +1,68 @@
+<!-- app/templates/auth/profile.html -->
+{% extends 'base.html' %}
+
+{% block title %}My Profile{% endblock %}
+
+{% block content %}
+<div class="card mb-4">
+    <div class="card-header">
+        <h3>My Profile</h3>
+    </div>
+    <div class="card-body">
+        <h4>{{ current_user.username }}</h4>
+        <p>{{ current_user.email }}</p>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h3>Quiz History</h3>
+    </div>
+    <div class="card-body">
+        {% if attempts %}
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Level Reached</th>
+                            <th>Score</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for attempt in attempts %}
+                        <tr>
+                            <td>{{ attempt.quiz.topic }}</td>
+                            <td>{{ attempt.level_reached }}</td>
+                            <td>{{ attempt.score|non_negative }}</td>
+                            <td>{{ attempt.date_attempted.strftime('%Y-%m-%d %H:%M') }}</td>
+                            <td>
+                                {% if attempt.is_complete %}
+                                    <span class="badge bg-success">Completed</span>
+                                {% else %}
+                                    <span class="badge bg-warning">Not completed</span>
+                                {% endif %}
+                            </td>
+                            <td>
+                                <a href="{{ url_for('auth.attempt_details', attempt_id=attempt.id) }}" 
+                                   class="btn btn-sm btn-primary">
+                                    Detailed View
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% else %}
+            <p class="text-center">You haven't taken any quizzes yet.</p>
+            <div class="text-center">
+                <a href="{{ url_for('main.topics') }}" class="btn btn-primary">Start a Quiz</a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

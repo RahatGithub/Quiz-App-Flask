@@ -1,10 +1,9 @@
-
 {% extends 'base.html' %}
 
 {% block title %}Level {{ level }} Complete{% endblock %}
 
 {% block content %}
-<div class="card">
+<div class="card mb-4">
     <div class="card-header">
         <h3>Level {{ level }} Results</h3>
     </div>
@@ -19,9 +18,9 @@
         
         <div class="mt-4">
             <h5>Your Statistics</h5>
-            <p>Score: {{ score }} points</p>
-            <p>Correct Answers: {{ total_correct }} out of {{ total_questions }}</p>
-            <p>Percentage: {{ percentage|round(1) }}%</p>
+            <p>Score: {{ score }} out of {{ total_possible_points }} possible points</p>
+            <p>Correct Answers: {{ total_correct }} out of {{ total_questions }} ({{ percentage_correct|round(1) }}%)</p>
+            <p>Points Percentage: {{ percentage_points|round(1) }}% <small class="text-muted">(60% required to pass)</small></p>
         </div>
         
         {% if passed and next_level %}
@@ -32,7 +31,7 @@
             </div>
         {% elif not passed %}
             <div class="mt-4">
-                <p>You need at least 60% to proceed to the next level.</p>
+                <p>You need at least 60% of total possible points to proceed to the next level.</p>
                 <a href="{{ url_for('main.topics') }}" class="btn btn-primary">
                     Try Another Topic
                 </a>
@@ -40,4 +39,61 @@
         {% endif %}
     </div>
 </div>
+
+<!-- Detailed Question Report -->
+<h3 class="mb-3">Question Details</h3>
+
+{% for question in questions_detail %}
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between">
+        <h5 class="mb-0">Question {{ loop.index }}</h5>
+        <span class="badge {% if question.is_correct %}bg-success{% elif question.skipped %}bg-warning{% else %}bg-danger{% endif %}">
+            {% if question.is_correct %}
+                Correct Answer
+            {% elif question.skipped %}
+                Not Answered
+            {% else %}
+                Wrong Answer
+            {% endif %}
+        </span>
+    </div>
+    <div class="card-body">
+        <p class="card-text">{{ question.text }}</p>
+        
+        <div class="list-group mt-3">
+            {% for option in question.options %}
+            <div class="list-group-item 
+                {% if option == question.correct_answer %}bg-success text-white{% endif %}
+                {% if option == question.user_answer and not question.is_correct %}bg-danger text-white{% endif %}">
+                {{ option }}
+                
+                {% if option == question.correct_answer %}
+                    <span class="float-end">✓ Correct Answer</span>
+                {% endif %}
+                
+                {% if option == question.user_answer and not question.is_correct %}
+                    <span class="float-end">✗ Your Answer</span>
+                {% endif %}
+                
+                {% if option == question.user_answer and question.is_correct %}
+                    <span class="float-end">✓ Your Answer</span>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        
+        <div class="mt-3">
+            <strong>Points: {{ question.points }}</strong>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+{% if passed and next_level %}
+<div class="mb-5">
+    <a href="{{ url_for('main.next_level', level=next_level) }}" class="btn btn-primary btn-lg">
+        Proceed to Level {{ next_level }}
+    </a>
+</div>
+{% endif %}
 {% endblock %}

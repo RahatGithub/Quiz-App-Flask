@@ -35,6 +35,7 @@ class QuizAttempt(db.Model):
     # Store individual question responses
     responses = db.relationship('QuestionResponse', backref='attempt', lazy=True, cascade="all, delete-orphan")
 
+
 class QuestionResponse(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     attempt_id = db.Column(db.Integer, db.ForeignKey('quiz_attempt.id'), nullable=False)
@@ -43,6 +44,7 @@ class QuestionResponse(db.Model):
     is_correct = db.Column(db.Boolean, default=False)
     time_taken = db.Column(db.Integer, nullable=True)  # Time in seconds
     points = db.Column(db.Integer, default=0)  # Points earned or lost
+    presented_options = db.Column(db.String(500), nullable=True)  # Store options as JSON string
 
 @login_manager.user_loader
 def load_user(user_id):
